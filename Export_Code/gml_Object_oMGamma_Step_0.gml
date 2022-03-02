@@ -564,9 +564,9 @@ if (state == 20)
         facing = 1
     else if (x > 304)
         facing = -1
-    if floor(distance_to_point(304, 432) != 0)
+    if floor(distance_to_point(304, 432) > 0)
         move_towards_point(304, 432, 1)
-    if floor((distance_to_point(304, 432) == 0 || statetime == 600))
+    if floor((distance_to_point(304, 432) < 1 || statetime == 300))
     {
         x = 304
         y = 432
@@ -603,5 +603,8 @@ if (myid == 52 && global.event[331] >= 3 && (!dead) && state < 20)
     myhealth = 0
     state = 20
     statetime = -1
+    xVel = 0
+    yVel = 0
+    speed = 0
     dead = 1
 }

@@ -63,6 +63,9 @@ if (myhealth <= 0)
                 instance_destroy()
         }
         global.event[331] = 3
+        xVel = 0
+        yVel = 0
+        speed = 0
         state = 20
         statetime = 0
         sfx_play(sndMGammaDeath)
