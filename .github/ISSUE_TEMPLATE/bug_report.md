@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve AM2R!
+about: Create a report to help us improve AM2R The Horde!
 title: ''
 labels: bug, requires confirmation
 assignees: ''
@@ -20,7 +20,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots/videos to help explain your problem.
 
 **Platform (please complete the following information):**
- - OS: [Windows/Linux/Android]
+ - OS: [Windows/Linux/Android/Macintosh]
  - Version: [e.g. 22]
 
 **Game Version:**
