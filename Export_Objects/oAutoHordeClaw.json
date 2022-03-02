@@ -1,0 +1,201 @@
+{
+  "name": "oAutoHordeClaw",
+  "sprite": "sAutHordeClaw",
+  "visible": true,
+  "solid": false,
+  "depth": -2,
+  "persistent": false,
+  "parent_id": null,
+  "texture_mask_id": null,
+  "uses_physics": false,
+  "is_sensor": false,
+  "collision_shape": 0,
+  "density": 0.5,
+  "restitution": 0.1,
+  "group": 0,
+  "linear_damping": 0.1,
+  "angular_damping": 0.1,
+  "friction": 0.2,
+  "awake": true,
+  "kinematic": true,
+  "physics_vertices": [],
+  "events": [
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oAutoHordeClaw_Create_9807",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [],
+    [],
+    [],
+    [
+      {
+        "event_subtype": 440,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oAutoHordeClaw_Collision_440_9808",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 439,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oAutoHordeClaw_Collision_439_9809",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 267,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oAutoHordeClaw_Collision_267_9810",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 186,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oAutoHordeClaw_Collision_186_9811",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 381,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oAutoHorde_Collision_9813",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 382,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oAutoHordeClaw_Collision_9814",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 952,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_AutoHorde_Collision_Slope_10282",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

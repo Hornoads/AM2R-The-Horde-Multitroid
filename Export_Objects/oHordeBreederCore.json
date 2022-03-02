@@ -1,0 +1,185 @@
+{
+  "name": "oHordeBreederCore",
+  "sprite": "sCoreXHorde",
+  "visible": true,
+  "solid": false,
+  "depth": -99,
+  "persistent": false,
+  "parent_id": null,
+  "texture_mask_id": null,
+  "uses_physics": false,
+  "is_sensor": false,
+  "collision_shape": 0,
+  "density": 0.5,
+  "restitution": 0.1,
+  "group": 0,
+  "linear_damping": 0.1,
+  "angular_damping": 0.1,
+  "friction": 0.2,
+  "awake": true,
+  "kinematic": true,
+  "physics_vertices": [],
+  "events": [
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oHordeBreederWall_Create_9975",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oHordeBreederWall_Destroy_9978",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oHordeBreederWall_Alarm_0_9976",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 1,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oHordeBreederWall_Alarm_1_9981",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oHordeBreederWall_Step_9977",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "event_subtype": 267,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oHordeBreederWall_Collision_9979",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [],
+    [],
+    [],
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oHordeBreederWall_draw_9980",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

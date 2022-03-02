@@ -1,0 +1,602 @@
+{
+  "name": "oEnemyFrozen",
+  "sprite": "sIceShard",
+  "visible": true,
+  "solid": false,
+  "depth": 0,
+  "persistent": false,
+  "parent_id": null,
+  "texture_mask_id": null,
+  "uses_physics": false,
+  "is_sensor": false,
+  "collision_shape": 0,
+  "density": 0.5,
+  "restitution": 0.1,
+  "group": 0,
+  "linear_damping": 0.1,
+  "angular_damping": 0.1,
+  "friction": 0.2,
+  "awake": true,
+  "kinematic": true,
+  "physics_vertices": [],
+  "events": [
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Create_0",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [],
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Alarm_0",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Step_0",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "event_subtype": 441,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Collision_441",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 440,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Collision_440",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 438,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Collision_438",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 437,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Collision_437",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 435,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 496,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 488,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 506,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 507,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 508,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 509,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 510,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 511,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 530,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 531,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 532,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 533,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 535,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 536,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 537,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 538,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 539,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oEnemyFrozen_Collision_435",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "event_subtype": 10,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Other_10",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      },
+      {
+        "event_subtype": 26,
+        "actions": [
+          {
+            "lib_id": 0,
+            "id": 0,
+            "kind": 0,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": false,
+            "exe_type": 0,
+            "action_name": null,
+            "code_id": "gml_Object_oHordeHornoadFirst_Other_16",
+            "argument_count": 0,
+            "who": 0,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "event_subtype": 0,
+        "actions": [
+          {
+            "lib_id": 1,
+            "id": 603,
+            "kind": 7,
+            "use_relative": false,
+            "is_question": false,
+            "use_apply_to": true,
+            "exe_type": 2,
+            "action_name": "",
+            "code_id": "gml_Object_oEnemyFrozen_Draw_0",
+            "argument_count": 1,
+            "who": -1,
+            "relative": false,
+            "is_not": false
+          }
+        ]
+      }
+    ],
+    [],
+    [],
+    []
+  ]
+}

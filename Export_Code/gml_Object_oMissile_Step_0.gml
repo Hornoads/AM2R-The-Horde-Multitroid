@@ -34,7 +34,7 @@ if instance_exists(oClient)
                 instance_destroy()
         }
     }
-    else if (x < ((view_xview[0] - 48) - (oControl.widescreen_space / 2)) || x > (((view_xview[0] + view_wview[0]) + 48) + (oControl.widescreen_space / 2)) || y < (view_yview[0] - 48) || y > ((view_yview[0] + view_hview[0]) + 48))
+    else if (x < ((view_xview[0] - 64) - (oControl.widescreen_space / 2)) || x > (((view_xview[0] + view_wview[0]) + 64) + (oControl.widescreen_space / 2)) || y < (view_yview[0] - 64) || y > ((view_yview[0] + view_hview[0]) + 64))
     {
         instance_destroy()
         trail.speed = speed
@@ -43,7 +43,7 @@ if instance_exists(oClient)
             instance_destroy()
     }
 }
-else if (x < ((view_xview[0] - 48) - (oControl.widescreen_space / 2)) || x > (((view_xview[0] + view_wview[0]) + 48) + (oControl.widescreen_space / 2)) || y < (view_yview[0] - 48) || y > ((view_yview[0] + view_hview[0]) + 48))
+else if (x < ((view_xview[0] - 160) - (oControl.widescreen_space / 2)) || x > (((view_xview[0] + view_wview[0]) + 160) + (oControl.widescreen_space / 2)) || y < (view_yview[0] - 160) || y > ((view_yview[0] + view_hview[0]) + 160))
 {
     instance_destroy()
     trail.speed = speed

@@ -95,8 +95,8 @@ if instance_exists(oClient)
         if (x > (room_width + 200) || x < -200 || y > (room_height + 200) || y < -200)
             instance_destroy()
     }
-    else if (x < ((view_xview[0] - 48) - (oControl.widescreen_space / 2)) || x > (((view_xview[0] + view_wview[0]) + 48) + (oControl.widescreen_space / 2)) || y < (view_yview[0] - 48) || y > ((view_yview[0] + view_hview[0]) + 48))
+    else if (x < ((view_xview[0] - 160) - (oControl.widescreen_space / 2)) || x > (((view_xview[0] + view_wview[0]) + 160) + (oControl.widescreen_space / 2)) || y < (view_yview[0] - 160) || y > ((view_yview[0] + view_hview[0]) + 48))
         instance_destroy()
 }
-else if (x < ((view_xview[0] - 48) - (oControl.widescreen_space / 2)) || x > (((view_xview[0] + view_wview[0]) + 48) + (oControl.widescreen_space / 2)) || y < (view_yview[0] - 48) || y > ((view_yview[0] + view_hview[0]) + 48))
+else if (x < ((view_xview[0] - 160) - (oControl.widescreen_space / 2)) || x > (((view_xview[0] + view_wview[0]) + 160) + (oControl.widescreen_space / 2)) || y < (view_yview[0] - 160) || y > ((view_yview[0] + view_hview[0]) + 160))
     instance_destroy()
