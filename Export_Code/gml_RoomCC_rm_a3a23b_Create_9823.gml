@@ -1,0 +1,9 @@
+targetroom = 151
+targetx = 312
+targety = 432
+height = 80
+direction = 180
+camstartx = 320
+camstarty = 432
+transitionx = 316
+transitiony = 192

@@ -1,0 +1,9 @@
+targetroom = 398
+targetx = 16
+targety = 208
+height = 64
+direction = 0
+camstartx = (0 - (oControl.widescreen_space / 2))
+camstarty = 200
+transitionx = (4 - (oControl.widescreen_space / 2))
+transitiony = 208

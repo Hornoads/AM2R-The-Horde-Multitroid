@@ -1,0 +1,5 @@
+event_inherited()
+if (flashing == 0)
+    draw_sprite_ext(myspr, image_index, x, y, image_xscale, image_yscale, image_angle, colorset, image_alpha)
+if (flashing == 1)
+    draw_sprite_ext(myspr, image_index, x, y, image_xscale, image_yscale, image_angle, colorset, image_alpha)

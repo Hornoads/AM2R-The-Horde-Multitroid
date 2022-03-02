@@ -1,0 +1,10 @@
+image_index = 0
+image_speed = 0
+hpush = 5
+vpush = -3
+damage = 20
+cooldown = 0
+alarm[0] = 1
+image_xscale = 1
+pushdir = 0
+image_alpha = 0.9

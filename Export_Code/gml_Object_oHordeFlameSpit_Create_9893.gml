@@ -1,0 +1,11 @@
+image_index = 1
+image_speed = 0
+hpush = 2
+vpush = -1.5
+damage = 150
+damage = 50
+cooldown = 0
+alarm[0] = 2
+image_xscale = choose(1, -1)
+pushdir = 0
+facing = 1

@@ -1,0 +1,330 @@
+
+
+FILENAME           = TRACK
+-_-_-_-_-_-_-_-_
+
+musAlphaFight      = Mechaeye
+musAncientGuardian = Entering the Hive
+musArachnus        = Parasite Slasher
+musArea1A          = Alluring Darkness
+musArea1B          = A Familiar Path
+musArea2A          = Opposing Currents
+musArea2B          = Danger in Old Tourian
+musArea3A          = Dreams of Steel
+musArea3B          = Eldritch Spore Spawn
+musArea4A          = Operation Golem
+musArea4B          = Redemption
+musArea5A          = Bioluminescence
+musArea5B          = Wonderwave
+musArea6A          = Phazonsynthesis
+musArea7A          = In the Name of Science
+musArea7B          = *Mechaeye, Groundshaker*
+musArea7C          = Groundshaker
+musArea7D          = A Severed Queen
+musArea8           = SRX Derelict
+musCaveAmbience    = Depths of Tallon IV
+musCaveAmbienceA4  = Operation Golem
+musCredits         = The Motherworld
+musEnding          = ?Parasite X?
+musEris            = Slipstream
+musFanfare         = Harmony Returns
+musGammaFight      = Mechaeye
+musGenesis         = Infectious Fear
+musHatchling       = The Motherworld
+musIntroSeq        = The Battle for Tallon IV
+musItemAmb         = Item Room
+musItemAmb2        = Chronicles of Samus
+musItemGet         = Item Acquisition
+musLabAmbience     = Lost Vessel Awakens
+musMainCave        = The Unnamed Frontier
+musMainCave2       = In the Bowels of Norfair
+musMonsterAppear   = Mechaeye
+musOmegaFight      = Mechaeye
+musQueen           = MQ2
+musQueen2          = MQ2
+musQueen3          = MQ2
+musQueenBreak      = MQ2
+musQueenIntro      = MQ2
+musReactor         = Incoming Kraid
+musTester          = Go Rogue
+musTitle           = The Lady Returns
+musTorizoA         = Metamorphasis
+musTorizoB         = Metamorphasis
+musZetaFight       = Mechaeye
+
+BONUS TRACKS FOR "The Horde" MOD
+musArea9.ogg       = Orpheon Groove
+musHordeBossA.ogg  = Unauthorized Access
+musHordeBossB.ogg  = Cave Dweller
+musHordeBossC.ogg  = Metamorphic
+musSkippy.ogg = U-Mos' Mainframe
+
+-----------------------------------------
+
+Most tracks have been volume-levelled and cut for proper looping.
+
+* indicates track has been heavily modified and/or mixed with other tracks listed here.
+
+-----------------------------------------
+CREDITS
+.-,_.-,_.-,_.-,_.-,_.-,_.-,_.-,_.-,_.
+
+ALBUM
+HARMONY OF A HUNTER
+
+Disc 1
+
+2. "Danger in Old Tourian"
+by DoctorM64
+Zebes Planetfall (Exterior), Crateria - The Space Pirates Emerge (Super Metroid) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+4. "Bioluminescence"
+by Theophany
+Sector 4 (AQA) Underwater (Metroid Fusion) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+5. "Infectious Fear"
+by The Fishhead
+Sector 1 (SRX) (Metroid Fusion) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+
+12. Cave Dweller
+by Prophetik
+Vs Ridley (Super Metroid) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+15. "M2Q"
+by Stemage, Chunkstyle
+Vs Metroid Queen (Metroid II: Return of Samus) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+Disc 2 
+
+1. "Parasite X"
+by Mazedude
+Parasite Queen (Metroid Prime) 
+
+.-,_.-,_.-,_.-,_.-,_.-,_.-,_.-,_.-,_.
+
+ALBUM: 
+HARMONY OF A HUNTER: 101% RUN
+
+Disc 1
+
+4. "Eldrich Spore Spawn"
+by Gario
+Spore Spawn (Super Metroid) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+
+7. Unauthorised Access
+by Erik McClure
+Vs Security Robot B.O.X. (Metroid Fusion) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+8. "Alluring Darkness"
+by Stephan Wells feat. Buoy
+Secrets of the Chozo (Metroid II: Return of Samus) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+10. "The Unnamed Frontier"
+by Pyro Paper Planes feat. Viking Guitar
+Surface Runner (Metroid II: Return of Samus) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+13. "Entering the Hive"
+by Jared Cowing feat. Laura Intravia
+Vs Hive Totem (Metroid Prime) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+14. "Dreams of Steel"
+by Jack of Bass feat. Maciej Markiewicz
+Alinos Gateway (Metroid Prime Hunters) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+15. "The Lady Returns"
+by Emperor Charlemagne
+Title Theme (Metroid II: Return of Samus) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+Disc 2
+
+
+3. "Slipstream"
+by Pyro Paper Planes
+Vs Serris (Metroid Fusion) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+8. "In the Bowels of Norfair"
+by George R. Powell
+Norfair (Metroid: Zero Mission) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+10. "A Familiar Path"
+by LV-380
+The Elders (Metroid Prime Hunters) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+11. "Incoming Kraid"
+by Mozzaratti
+Vs Kraid (Super Metroid) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+13. "The Depths of Tallon IV"
+by Slimane Dellaoui
+Phazon Mines (Metroid Prime) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+Disc 3
+
+6. "Item Room/Item Acquisition Fanfare"
+by Zack Parrish
+Item Room (Super Metroid) 
+
+.-,_.-,_.-,_.-,_.-,_.-,_.-,_.-,_.-,_.
+
+ALBUM: 
+HARMONY OF A HUNTER RETURNS
+
+
+7. "Opposing Currents"
+by Luminist 
+Sector 4 AQA (Metroid Fusion)
+
+.,.,.,.,.,.,.,.,.,.,
+
+13. "Metamorphosis"
+by Sam Dillard (Samo Studios)
+Chykka Larva and Adult(Metroid Prime 2)
+
+.,.,.,.,.,.,.,.,.,.,
+
+19. Metamorphic
+by Thennecan
+Vs Gandrayda (Metroid Prime 3: Corruption) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+20. "SRX Derelict"
+Arranged music composed by George R. Powell. 
+Guitars performed by Erik "Viking Guitar" Peabody.
+Sector 1 (Metriod Fusion)
+
+.,.,.,.,.,.,.,.,.,.,
+
+23. "Groundshaker"
+by Drakeld 
+Vs Thardus (Metroid Prime)
+
+.,.,.,.,.,.,.,.,.,.,
+
+24. "Redemption"
+By Zack Parrish
+Title theme (Metroid Prime: Federation Force)
+
+.,.,.,.,.,.,.,.,.,.,
+
+28. "The Motherworld"
+by Mozzaratti
+Surface of SR-388 (Metroid II: Return of Samus, Samus Returns) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+29. "Parasite Slasher"
+By Chernabogue, featuring Viking Guitar
+Arachnus X (Metroid Fusion)
+
+.,.,.,.,.,.,.,.,.,.,
+
+30. "U-Mos’ Mainframe"
+by Dewey Newt
+Sanctuary Fortress (Metroid Prime 2: Echoes) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+38. "The Battle for Tallon IV"
+by David Donges
+Vs Space Pirates (Metroid Prime)
+
+.,.,.,.,.,.,.,.,.,.,
+
+39. "Phazonsynthesis"
+by Simon Palmblad
+Flaahgra (Metroid Prime)
+
+.,.,.,.,.,.,.,.,.,.,
+
+
+53. Orpheon Groove
+by ZakMarcusMusic feat. VGDrumCovers
+Underwater Frigate (Metroid Prime) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+54. "Mechaeye"
+Song: Vs Slench
+Game: Metroid Prime: Hunters
+Composer: Lawrence Schwedler, James Phillipsen
+
+Arranged by Justin Thornburgh
+Keyboards: Justin Thornburgh
+Drums: VGDrumCovers
+
+.,.,.,.,.,.,.,.,.,.,
+
+55. "The Lost Vessel Awakens"
+by Unknown
+Wrecked Ship (Super Metroid)
+
+.,.,.,.,.,.,.,.,.,.,
+
+
+56. "Wonderwave"
+by Drakeld
+Underwater Depths (Metroid Fusion) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+
+57. "Operation Golem"
+by Prophetik
+Title Screen (Metroid Prime: Federation Force) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+
+59. "Go Rogue"
+by Moa Lenngren
+Vs Diggernaut (Metroid: Samus Returns) 
+
+.,.,.,.,.,.,.,.,.,.,
+
+
+61. "Harmony Returns"
+by Zack Parrish, featuring Sebastian Mårtensson
+Opening (Metroid), Prologue (Super Metroid), Main Theme, Metroid Prime (Metroid series) 
+.,.,.,.,.,.,.,.,.,.,
+
+
+64. "Chronicles of Samus"
+by HiScore
+Various Tracks (Metroid series) 
