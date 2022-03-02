@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest a new addition to improve AM2R.
+about: Suggest a new addition to improve AM2R The Horde.
 title: ''
 labels: feature
 assignees: ''
