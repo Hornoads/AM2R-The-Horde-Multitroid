@@ -26,17 +26,21 @@ Custom Music sourced from https://harmony.shinesparkers.net/
 
 See "Custom_Music_Credits" for the full list of tracks and artists
 
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
 
 Custom Graphics by JesRight7
 
 modified fog by ShirtyScarab554
 
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
 
 Custom Sounds sourced from Freesounds.com, modified by JesRight7
 
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
 
 "REVOLT OF BUFOS" title Font : Xolonium
 
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
 
 Consultants/Advisors/Playtesters: ShirtyScarab554, Miepee, DruidVorse, Lojemiru, milesthenerd, Zackonark, Ridley, The Ethereal One, Naatiska, atver, Ridley, M3D.
 
