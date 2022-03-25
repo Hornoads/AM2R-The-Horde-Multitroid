@@ -1,6 +1,6 @@
 ---
 name: Enhancement request
-about: Suggest a minor change to improve AM2R.
+about: Suggest a minor change to improve AM2R The Horde.
 title: ''
 labels: enhancement
 assignees: ''
