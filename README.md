@@ -11,7 +11,7 @@ Custom Music sourced from https://harmony.shinesparkers.net/, see "Custom_Music_
 
 Custom Sounds sourced from Freesounds.com, modified by JesRight7
 
-Custom Graphics by JesRight7, modified fog by ShirtyScarab554.
+Custom Graphics by JesRight7, modified fog by ShirtyScarab554, Septogg Frog sprite by Miepee.
 
 "REVOLT OF BUFOS" title Font: Xolonium
 
