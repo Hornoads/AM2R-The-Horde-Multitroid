@@ -28,3 +28,4 @@ empspr = 417
 shield_angle = 0
 shield_img = 0
 shield_present = 1
+AFDayEnemy(sHornoadTurn, 305)

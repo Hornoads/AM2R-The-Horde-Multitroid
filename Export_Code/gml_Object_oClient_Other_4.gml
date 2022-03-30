@@ -18,5 +18,3 @@ if (room == rm_credits)
     buffer_write(buffer, buffer_u8, global.clientID)
     result = network_send_packet(socket, buffer, buffer_tell(buffer))
 }
-if (room == rm_score)
-    resetTimer = 5

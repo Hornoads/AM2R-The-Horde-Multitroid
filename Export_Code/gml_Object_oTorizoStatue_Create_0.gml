@@ -2,7 +2,7 @@ image_speed = 0
 image_index = 0
 state = 0
 statetime = 0
-if (global.event[152] > 2)
+if ((global.event[152] > 2 && oControl.mod_fusion == 0) || (global.event[152] == 4 && oControl.mod_fusion == 1))
 {
     image_index = 8
     with (115278)

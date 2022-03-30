@@ -15,3 +15,4 @@ if (x < oCharacter.x)
     facing = 1
 image_speed = 0
 myspeed = 0
+AFDayEnemy(sHornoadJump, 1818)

@@ -18,3 +18,4 @@ canattack = 1
 flipx = 0
 state = 1
 alarm[0] = (120 + random(200))
+AFDayEnemy(sHornoadTurn, 1818)

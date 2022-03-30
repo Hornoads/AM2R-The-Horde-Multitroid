@@ -4,3 +4,4 @@ vpush = -3
 vspeed = 4
 if (random(2) < 1)
     image_xscale = -1
+AFDayProj(sHornoadProj)

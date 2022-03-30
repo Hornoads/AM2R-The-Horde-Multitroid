@@ -14,5 +14,7 @@ if file_exists("musItemAmb2.ogg")
             mus_change(musCaveAmbience)
     }
 }
+mus_stop(musTorizoA)
+mus_stop(musTorizoB)
 instance_create(2592, 1120, scr_itemsopen(oControl.mod_202))
 instance_create(64, 1648, scr_itemsopen(oControl.mod_211))

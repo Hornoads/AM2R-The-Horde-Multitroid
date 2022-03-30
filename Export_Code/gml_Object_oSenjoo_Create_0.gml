@@ -13,3 +13,4 @@ state = 1
 statetime = 0
 targetnum = 1
 alarm[0] = 1
+AFDayEnemy(sHornoadTurn, 305)

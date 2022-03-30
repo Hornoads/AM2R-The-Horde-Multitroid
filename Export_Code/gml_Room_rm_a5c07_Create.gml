@@ -6,7 +6,7 @@ global.floormaterial = 4
 global.objdeactivate = 0
 if (global.event[182] == 1)
 {
-    if (global.event[319] == 0)
+    if ((oControl.mod_fusion == 1 && global.event[319] < 4) || (oControl.mod_fusion == 0 && global.event[319] == 0))
         mus_current_fadeout()
     tile_layer_delete(105)
     tile_layer_delete(-99)

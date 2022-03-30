@@ -13,3 +13,4 @@ flipx = 0
 state = 1
 alarm[0] = (60 + random(90))
 image_speed = 0.5
+AFDayEnemy(sHornoadTurn, 1818)

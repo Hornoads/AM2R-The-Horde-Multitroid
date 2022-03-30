@@ -8,3 +8,4 @@ if (oControl.mod_randomgamebool == 1 && (global.wbeam == 0 || global.sbeam == 0 
     if (freezehp < 1)
         freezehp = 1
 }
+AFDayEnemy(sHornoadShake, 305)

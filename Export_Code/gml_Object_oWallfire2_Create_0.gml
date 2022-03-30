@@ -26,3 +26,4 @@ hitemp = 1
 empspr = 324
 freezefall = 0
 timer = 120
+AFDayEnemy(sHordeAttack, 1790)

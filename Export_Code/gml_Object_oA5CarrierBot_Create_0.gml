@@ -8,3 +8,4 @@ hover_time = 30
 draw_battery = 1
 batid = -1
 trip = 0
+AFDayProj(sHornoadXTwitch)

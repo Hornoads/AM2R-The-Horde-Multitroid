@@ -20,3 +20,4 @@ canattack = 1
 state = 1
 image_speed = 0
 image_timer = 1
+AFDayEnemy(sHornoadXJump, 1812)

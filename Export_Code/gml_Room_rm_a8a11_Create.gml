@@ -5,7 +5,7 @@ global.waterlevel = 0
 global.darkness = 3
 if (oControl.mod_fusion == 1)
 {
-    if (global.event[307] > 1 && global.item[scr_itemchange(oControl.mod_50)] == 0)
+    if (global.event[307] == 4 && global.item[scr_itemchange(oControl.mod_50)] == 0)
     {
         inst = instance_create(((room_width / 5) * 4), (room_height / 2), oCoreX)
         inst.alarm[1] = -1

@@ -18,3 +18,4 @@ state = 1
 active = 1
 hitemp = 1
 empspr = 408
+AFDayEnemy(sHordeMiniJump, 1794)

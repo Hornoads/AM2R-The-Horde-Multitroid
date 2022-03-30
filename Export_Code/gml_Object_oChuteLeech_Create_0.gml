@@ -19,3 +19,4 @@ target = 0
 canattack = 1
 state = 1
 image_speed = 0
+AFDayEnemy(sHornoadJump, 1818)

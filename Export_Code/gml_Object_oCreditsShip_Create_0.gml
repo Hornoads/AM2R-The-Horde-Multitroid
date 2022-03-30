@@ -7,3 +7,5 @@ scale = 0
 offset = 1
 hspeed = 3
 sfx_play(sndShipFlyby)
+if AFDCheck()
+    sprite_index = sHordeBOX

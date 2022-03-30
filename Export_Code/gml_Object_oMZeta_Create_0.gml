@@ -7,7 +7,7 @@ makeActive()
 setCollisionBounds(-10, -30, 10, 43)
 myhealth = global.mod_zetahealth
 if (room == rm_a7b08A)
-    myhealth *= 0.5
+    myhealth *= 0.7
 flashing = 0
 stunned = 0
 fxtimer = 0
@@ -111,3 +111,5 @@ if (oControl.mod_monstersextremecheck == 1)
 }
 starthealth = myhealth
 dead = 0
+isbeam = 0
+issmissile = 0

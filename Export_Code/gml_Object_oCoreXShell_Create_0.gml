@@ -57,7 +57,7 @@ if (room == rm_a5b03a)
     myhealth[1] = global.mod_coreErisHealthYellow
     myhealth[2] = global.mod_coreErisHealthRed
     acceleration = 0.1
-    maxspeed = 5
+    maxspeed = 7
     drag = 0.03
     ge = 261
 }
@@ -66,7 +66,7 @@ if (room == rm_a5h01)
     damage = 45
     myhealth[0] = 2
     myhealth[1] = 3
-    myhealth[2] = 2
+    myhealth[2] = 3
     maxspeed = 3.5
     ge = 265
 }

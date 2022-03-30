@@ -11,7 +11,7 @@ with (disolid3)
     instance_destroy()
 with (disolid4)
     instance_destroy()
-armor = (200 + armplus)
+armor = (250 + armplus)
 with (oAutoHordeXBrain)
 {
     state = 0

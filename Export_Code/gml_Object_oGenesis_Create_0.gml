@@ -21,7 +21,7 @@ xtreme = 0
 if (oControl.mod_monstersextremecheck == 1)
 {
     hp *= 1.2
-    damage *= 1.5
+    damage *= 1.4
     xtreme = 1
 }
 leapcool = 0

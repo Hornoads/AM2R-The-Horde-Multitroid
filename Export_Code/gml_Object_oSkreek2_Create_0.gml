@@ -17,3 +17,4 @@ if (x < oCharacter.x)
 image_speed = 0.2
 trigger = 0
 launch = 0
+AFDayEnemy(sHornoadXTwitch, 1812)

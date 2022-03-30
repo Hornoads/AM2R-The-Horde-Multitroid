@@ -52,3 +52,4 @@ shaking = 0
 sprite_index = sMeboidSpawn
 image_speed = 0.25
 candamage = 0
+AFDayEnemy(sHordeMiniSwimVolt, 1827)

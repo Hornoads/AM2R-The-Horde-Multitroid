@@ -43,7 +43,6 @@ if (global.event[160] == 0)
     make_notification(text1, text2, duration, btn1_name, btn2_name)
     global.event[160] = 1
 }
-deady = 480
 chplus = 0
 if (room == rm_a3a28)
 {
@@ -51,7 +50,6 @@ if (room == rm_a3a28)
     sprClaw = 1783
     sprFang = 1780
     myhealth = 750
-    deady = 720
     chplus = 0.5
     hasmissile = 1
 }

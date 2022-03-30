@@ -19,3 +19,4 @@ limit_r = (x + 80)
 image_speed = 0.2
 x = floor(x)
 y = floor(y)
+AFDayEnemy(sHordeArea4Jump, 1790)

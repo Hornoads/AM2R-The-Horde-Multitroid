@@ -14,3 +14,11 @@ state = 1
 alarm[0] = (60 + random(120))
 alarm[1] = (90 + random(120))
 alarm[3] = 4
+sprite1 = 307
+sprite2 = 308
+if AFDCheck()
+{
+    sprite1 = 1796
+    sprite2 = 1795
+    frozenspr = 1794
+}

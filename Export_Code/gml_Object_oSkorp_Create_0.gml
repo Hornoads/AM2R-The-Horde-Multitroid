@@ -23,3 +23,4 @@ spin = 0
 alarm[0] = 10
 alarm[2] = 1
 alarm[4] = 2
+AFDayEnemy(sHordeIdle, 1790)

@@ -1,5 +1,5 @@
 dodamage = 1
-if (sprite_index == sSkorpDisc)
+if (sprite_index == sSkorpDisc || sprite_index == sHornoadShake)
 {
     if (other.dash >= 29 || other.state == 30 || other.state == 31 || other.state == 29 || other.speedboost > 0 || (other.state == 15 && other.vjump == 0 && global.screwattack == 1))
         dodamage = 0

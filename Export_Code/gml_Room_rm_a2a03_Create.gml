@@ -8,3 +8,4 @@ if (instance_number(oCharacter) > 0)
     mus_change(musArea2A)
 else
     oMusicV2.currentbgm = 265
+mus_stop(musArachnus)

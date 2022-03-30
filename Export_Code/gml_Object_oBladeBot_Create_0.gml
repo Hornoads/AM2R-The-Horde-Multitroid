@@ -25,3 +25,4 @@ speed = 4
 alarm[0] = 1
 col_edge = 0
 ispeed = image_speed
+AFDayEnemy(sHornoadXIdle, 1812)

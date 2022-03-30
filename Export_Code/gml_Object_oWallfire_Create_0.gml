@@ -30,3 +30,4 @@ if (global.event[63] == 1)
     mad += 1
     myhealth += 5
 }
+AFDayEnemy(sHornoadAttack, 1817)

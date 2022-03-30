@@ -39,14 +39,16 @@ if (hitpseudoscrew == 1 && other.chargebeam >= 1 && other.state == 15 && other.v
 if (dodamage == 1)
 {
     with (other.id)
-        plantdrain = 1
-    if (global.currentsuit == 2)
     {
-        global.playerhealth -= (0.025 * oControl.mod_diffmult)
-        if (global.playerhealth <= 0 && state != DEFEATED)
+        plantdrain = 1
+        if (global.currentsuit == 2)
         {
-            alarm[0] = 6
-            state = DEFEATED
+            global.playerhealth -= (0.025 * oControl.mod_diffmult)
+            if (global.playerhealth <= 0 && state != DEFEATED)
+            {
+                alarm[0] = 6
+                state = DEFEATED
+            }
         }
     }
 }

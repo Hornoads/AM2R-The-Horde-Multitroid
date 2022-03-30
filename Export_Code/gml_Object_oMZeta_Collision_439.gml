@@ -4,6 +4,7 @@ if oBeam.chargebeam
     {
         if (flashing == 0)
         {
+            isbeam = 1
             event_user(0)
             with (other.id)
                 event_user(0)

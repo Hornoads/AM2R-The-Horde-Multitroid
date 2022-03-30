@@ -33,6 +33,8 @@ if (oControl.mod_fusion == 0)
         with (oA5ActivationBG)
             i = 0
     }
+    with (oCrystalSolidX)
+        image_speed = 0.1
 }
 else
 {

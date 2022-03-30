@@ -54,7 +54,7 @@ if (myhealth <= 0)
         dead = 1
     }
 }
-flashing = 1
+flashing = 4
 canbehit = 0
 statetime = 0
 currentangle = 30

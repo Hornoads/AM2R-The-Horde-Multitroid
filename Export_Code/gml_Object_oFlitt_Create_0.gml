@@ -7,3 +7,4 @@ if (faceran <= 4)
     facing = -1
 else
     facing = 1
+AFDayProj(sHornoadShake)

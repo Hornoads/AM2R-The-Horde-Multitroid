@@ -24,9 +24,9 @@ if (state == 1)
     {
         sfx_loop(sndElevatorLoop)
         if (elev_dir == 0)
-            oCharacter.yVel = 1
+            oCharacter.yVel = 7
         else
-            oCharacter.yVel = -1
+            oCharacter.yVel = -7
     }
 }
 if (image_alpha < 1)

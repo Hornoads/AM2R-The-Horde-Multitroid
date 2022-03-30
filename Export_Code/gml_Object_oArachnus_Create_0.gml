@@ -50,9 +50,11 @@ PowerBombImmune = 0
 dead = 0
 xtreme = 0
 cyc = 0
+angrymax = 100
 if (oControl.mod_monstersextremecheck == 1)
 {
     xtreme = 1
     damage *= 1.2
     PowerBombImmune = 1
+    angrymax = 150
 }

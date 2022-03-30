@@ -15,7 +15,12 @@ if (argument0 == 0)
                 bgid[5] = 178
         }
         with (oShip1)
-            sprite_index = sShip
+        {
+            if (AFDCheck() == 0)
+                sprite_index = sShip
+            else if (AFDCheck() == 1)
+                sprite_index = sHordeBOX
+        }
         tile_layer_delete(110)
         tile_layer_delete(120)
         tile_layer_delete(-110)
@@ -51,7 +56,12 @@ if (argument0 == 1)
                 bgid[5] = 180
         }
         with (oShip1)
-            sprite_index = sShip
+        {
+            if (AFDCheck() == 0)
+                sprite_index = sShip
+            else if (AFDCheck() == 1)
+                sprite_index = sHordeBOX
+        }
         tile_layer_delete(100)
         tile_layer_delete(120)
         tile_layer_delete(-100)
@@ -87,7 +97,12 @@ if (argument0 == 2)
                 bgid[5] = 179
         }
         with (oShip1)
-            sprite_index = sShipNight
+        {
+            if (AFDCheck() == 0)
+                sprite_index = sShip
+            else if (AFDCheck() == 1)
+                sprite_index = sHordeBOX
+        }
         tile_layer_delete(110)
         tile_layer_delete(100)
         tile_layer_delete(-110)

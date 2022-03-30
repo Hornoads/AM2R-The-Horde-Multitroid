@@ -16,3 +16,4 @@ image_speed = 0
 hitemp = 1
 empspr = 401
 freezefall = 0
+AFDayEnemy(sHornoadAttack, 1817)

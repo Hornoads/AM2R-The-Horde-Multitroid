@@ -57,7 +57,7 @@ if (state == 10)
         clawlangle -= 2
     if (clawrangle < 0)
         clawrangle += 2
-    if ((!isCollisionBottom(jl)) && yVel == 0)
+    if ((!isCollisionBottom(jl)) && floor(yVel) == 0)
     {
         alarm[1] = 1
         state = 11
@@ -75,7 +75,7 @@ if (state == 10)
 }
 if (state == 11)
 {
-    if (statetime == 1)
+    if (statetime == 0)
     {
         xVel = (3.7 * facing)
         yVel = 0

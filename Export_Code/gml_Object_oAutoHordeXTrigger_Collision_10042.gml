@@ -15,5 +15,5 @@ if (act == 0)
     instance_create(920, 104, oCrystalSolidX)
     instance_create(920, 120, oCrystalSolidX)
     instance_create(920, 136, oCrystalSolidX)
-    alarm[0] = 75
+    alarm[0] = 55
 }

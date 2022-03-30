@@ -11,3 +11,4 @@ flash = 0
 chaseX = 0
 alarm1set = 0
 myid = 0
+AFDayProj(sHordeBOXBrain)

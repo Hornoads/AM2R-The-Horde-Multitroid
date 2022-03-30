@@ -22,12 +22,15 @@ if (state == 2 && isCollisionBottom(1) && yVel == 0)
         highjump = 1
     }
     if (oCharacter.x > x)
-        xVel = (2.8 + (distance_to_point(oCharacter.x, y) * 0.01))
+        xVel = (2.7 + (distance_to_point(oCharacter.x, y) * 0.01))
     if (oCharacter.x < x)
-        xVel = (-2.8 - (distance_to_point(oCharacter.x, y) * 0.01))
+        xVel = (-2.7 - (distance_to_point(oCharacter.x, y) * 0.01))
     clawangle = 36
-    leg1.angle = 36
-    leg2.angle = 36
+    if instance_exists(oAutoHordeClaw)
+    {
+        leg1.angle = 36
+        leg2.angle = 36
+    }
 }
 if (state == 10 && isCollisionBottom(1) && yVel == 0)
 {

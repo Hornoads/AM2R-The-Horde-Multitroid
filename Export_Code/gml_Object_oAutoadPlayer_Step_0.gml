@@ -60,7 +60,7 @@ if (state != 100)
             event_user(1)
     }
     moveTo(xVel, yVel)
-    if (y > deady)
+    if (y > room_height)
         state = 100
 }
 if (state == 100)

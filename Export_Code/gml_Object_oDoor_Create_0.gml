@@ -13,3 +13,4 @@ hltimer = 0
 hlalpha = 0
 stayopen = 0
 alarm[2] = 10
+boss = 0

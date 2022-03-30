@@ -1,5 +1,8 @@
-if (global.event[265] >= 1)
-    instance_destroy()
+if (global.event[265] > 0)
+{
+    if ((oControl.mod_fusion == 1 && global.event[265] == 4) || oControl.mod_fusion == 0)
+        instance_destroy()
+}
 image_speed = 0.2
 originx = x
 originy = y

@@ -15,3 +15,4 @@ shell = instance_create(x, y, oGravittShell)
 shell.damage = 18
 shell.active = 1
 active = 1
+AFDayEnemy(sHornoadShake, 305)

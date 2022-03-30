@@ -539,28 +539,37 @@ if (state == 6)
         head_target_angle = (-30 * facing)
         xVel = 0
         yVel = 0
-        alarm[0] = 110
+        alarm[0] = (110 - (100 * xtreme))
         sfx_play(sndMOmegaBreathe)
     }
-    if (statetime < 110)
+    if (statetime < (90 - (45 * xtreme)))
     {
         fleg_frame = anim_frame(fleg_spr, fleg_frame, 0.25)
         bleg_frame = fleg_frame
     }
-    if (statetime == 110)
+    if (statetime == (90 - (45 * xtreme)))
     {
         roaring = 60
         head_target_angle = (40 * facing)
         body_target_angle = 30
         sfx_play(sndMOmegaFlame)
     }
-    if (statetime >= 110)
+    if (statetime >= (90 - (45 * xtreme)))
     {
         fleg_frame = anim_frame(fleg_spr, fleg_frame, -0.25)
         bleg_frame = fleg_frame
     }
-    if (statetime == 130)
+    if (statetime == (130 - (65 * xtreme)))
         head_target_angle = (-30 * facing)
+    if (xtreme == 1)
+    {
+        if (statetime == 90)
+            head_target_angle = (15 * facing)
+        if (statetime == 115)
+            head_target_angle = (-40 * facing)
+        if (statetime == 145)
+            head_target_angle = (40 * facing)
+    }
     if (statetime == 210)
     {
         event_user(3)
@@ -631,7 +640,7 @@ if (state == 7)
         yoff = 16
     if (floor(fleg_frame) == 9)
         yoff = 18
-    if (statetime == 30)
+    if (statetime == (30 - (15 * xtreme)))
     {
         state = 8
         statetime = 0

@@ -57,21 +57,62 @@ if (active == 1)
             }
             if (candodge && dodgedelay == 0 && ((instance_exists(oMissile) && distance_to_object(oMissile) < 64) || (instance_exists(oBeam) && distance_to_object(oBeam) < 64)) && ((facing == 1 && oCharacter.x > x) || (facing == -1 && oCharacter.x < x)))
             {
-                if ((oCharacter.y - 48) > y)
+                if (xtreme == 0)
                 {
-                    yVel = 2.5
-                    if (oCharacter.x > x)
-                        xVel = -3.5
-                    if (oCharacter.x < x)
-                        xVel = 3.5
+                    if ((oCharacter.y - 48) > y)
+                    {
+                        yVel = 2.5
+                        if (oCharacter.x > x)
+                            xVel = -3.5
+                        if (oCharacter.x < x)
+                            xVel = 3.5
+                    }
+                    if ((oCharacter.y - 48) < y)
+                    {
+                        yVel = -4
+                        if (oCharacter.x > x)
+                            xVel = 1
+                        if (oCharacter.x < x)
+                            xVel = -1
+                    }
                 }
-                if ((oCharacter.y - 48) < y)
+                else
                 {
-                    yVel = -4
-                    if (oCharacter.x > x)
-                        xVel = 1
-                    if (oCharacter.x < x)
-                        xVel = -1
+                    altdodge = 0
+                    if collision_line(x, y, x, (y - 32), oSolid, false, true)
+                        altdodge = 1
+                    if collision_line(x, y, x, (y + 16), oSolid, false, true)
+                        altdodge = 2
+                    if (distance_to_point(oCharacter.x, (oCharacter.y - 16)) > 56)
+                    {
+                        if (altdodge != 2 && (oCharacter.y - 48) > y)
+                        {
+                            yVel = 3
+                            if (oCharacter.x > x)
+                                xVel = -3.4
+                            if (oCharacter.x < x)
+                                xVel = 3.4
+                        }
+                        if (altdodge != 1 && (oCharacter.y - 48) < y)
+                        {
+                            yVel = -5
+                            if (oCharacter.x > x)
+                                xVel = 2
+                            if (oCharacter.x < x)
+                                xVel = -2
+                        }
+                    }
+                    else
+                    {
+                        if (oCharacter.x > x)
+                            xVel = 7
+                        if (oCharacter.x < x)
+                            xVel = -7
+                        if ((oCharacter.y - 16) > y)
+                            yVel = 2.5
+                        if ((oCharacter.y - 24) < y)
+                            yVel = -2.5
+                    }
                 }
                 dodging = 1
                 dodgetime = 0
@@ -81,7 +122,7 @@ if (active == 1)
                 canbehit = 0
                 sfx_play(sndMAlphaDodge)
             }
-            if (dodging && dodgetime >= 8)
+            if (dodging && dodgetime >= (8 + (xtreme * 4)))
             {
                 dodging = 0
                 canbehit = 1

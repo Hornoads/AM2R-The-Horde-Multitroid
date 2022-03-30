@@ -56,7 +56,7 @@ if (oControl.mod_monstersextremecheck == 1)
 {
     myhealth *= 1.5
     damage *= 1.2
-    hpforattack1 *= 1.2
+    hpforattack1 *= 1.4
     hpforattack2 *= 1.2
     xtreme = 1
 }

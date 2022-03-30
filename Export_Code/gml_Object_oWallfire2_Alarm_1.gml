@@ -5,7 +5,7 @@ if (active == 1 && frozen == 0 && state != 100)
         yoffset = 4
     else
         yoffset = 2
-    projectile = instance_create((x + poffset), (y - yoffset), oWallfireProj2)
+    projectile = instance_create((x + poffset), ((y - yoffset) + ((AFDCheck() * yoffset) * 5)), oWallfireProj2)
     projectile.hspeed = ((3.5 + global.difficulty) * facing)
     projectile.image_angle = projectile.direction
     PlaySoundMono(sndFireball)

@@ -13,3 +13,4 @@ if (x >= oCharacter.x)
 if (x < oCharacter.x)
     facing = 1
 image_speed = 0.2
+AFDayEnemy(sHornoadXBite, 1812)

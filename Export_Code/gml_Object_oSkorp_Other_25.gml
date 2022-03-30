@@ -9,6 +9,11 @@ else
     frz.spr1 = 1691
     frz.spr2 = 1691
 }
+if AFDCheck()
+{
+    frz.spr1 = 305
+    frz.spr2 = 305
+}
 frz.spr1xoff = lengthdir_x(len, dir)
 frz.spr1yoff = lengthdir_y(len, dir)
 frz.spr2xoff = lengthdir_x(len, (-dir))

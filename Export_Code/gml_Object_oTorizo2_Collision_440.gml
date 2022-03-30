@@ -1,4 +1,4 @@
-if (myhealth > 0 && state > 0)
+if (myhealth > 0 && state > 0 && state != 100)
 {
     if (!canbehit)
     {

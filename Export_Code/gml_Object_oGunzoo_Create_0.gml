@@ -33,3 +33,4 @@ if (global.difficulty >= 2)
     prefiretime = 20
 hitemp = 1
 empspr = 335
+AFDayEnemy(sHordeElecAttack, 1790)

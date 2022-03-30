@@ -70,7 +70,7 @@ if (state == 2)
         yVel = 0
     }
     xVel *= 0.6
-    if (point_distance(x, y, oCharacter.x, oCharacter.y) < 80 && statetime >= 10 && statetime <= 30)
+    if (point_distance(x, y, oCharacter.x, oCharacter.y) < 72 && statetime >= 10 && statetime <= 30)
     {
         state = 6
         statetime = 0
@@ -140,11 +140,11 @@ if (state == 5)
     }
     if (statetime == 60)
         sfx_play(sndGenesisGrowl)
-    if (statetime == 160 || collision_line((x + (30 * facing)), (y + 1), (x + (30 * facing)), (y + 8), oSolid, true, true) || (collision_line((x - 80), (y + 96), (x + 80), (y + 96), oCharacter, false, true) && alarm[1] == -1))
+    if (statetime == 160 || collision_line((x + (48 * facing)), (y + 1), (x + (48 * facing)), (y + 8), oSolid, true, true) || (collision_line((x - 80), (y + 96), (x + 80), (y + 96), oCharacter, false, true) && alarm[1] == -1))
     {
         state = 1
         statetime = -1
-        alarm[1] = (270 - (240 * xtreme))
+        alarm[1] = (200 - (160 * xtreme))
         speed = 0
     }
 }
@@ -236,9 +236,13 @@ if turning
     }
 }
 statetime += 1
-if (global.event[307] > 0 && (!dead))
+if (global.event[307] > 0 && (!dead) && state != 0)
 {
     hp = 0
     event_user(1)
     dead = 1
 }
+x = max(x, 32)
+x = min(x, 912)
+y = max(y, 48)
+y = min(y, 176)

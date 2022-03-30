@@ -28,7 +28,7 @@ if (frozen == 0)
         if (state == 3)
         {
             xVel *= 0.9
-            image_angle = (point_direction(x, y, oCharacter.x, (oCharacter.y - 16)) + (180 * facing == -1))
+            image_angle = (point_direction(x, y, oCharacter.x, (oCharacter.y - 16)) + (180 * facing) == -1)
             if (y > (oCharacter.y - 26))
                 yVel = -2
             if (y < (oCharacter.y - 26))
@@ -57,22 +57,22 @@ if (frozen == 0)
         state = 1
     if (state == 1)
     {
-        sprite_index = sYumbo
+        sprite_index = sprite1
         image_speed = 0.5
     }
     if (state == 2)
     {
-        sprite_index = sYumboTurn
+        sprite_index = sprite2
         image_speed = 0.2
     }
     if (state == 3)
     {
-        sprite_index = sYumbo
+        sprite_index = sprite1
         image_speed = 0.5
     }
     if (state == 4)
     {
-        sprite_index = sYumbo
+        sprite_index = sprite1
         image_speed = 1
     }
 }

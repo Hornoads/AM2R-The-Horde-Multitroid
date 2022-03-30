@@ -32,7 +32,7 @@ else if (state == 10)
 {
     if isCollisionBottom(jl)
     {
-        yVel = -8.5
+        yVel = choose(-9.4, -8.5, -7.2)
         if (trgtx >= x)
             xVel = 2.4
         if (trgtx < x)
@@ -63,7 +63,7 @@ else if (state == 30)
         if ((oCharacter.y - 16) > (y - 32))
         {
             yVel = -9
-            xveloffset = 5
+            xveloffset = 6
         }
         if ((oCharacter.y - 16) < (y - 32) && oCharacter.y > (y - 112))
         {
@@ -75,11 +75,11 @@ else if (state == 30)
             yVel = -12
             xveloffset = 4
         }
-        if (oCharacter.x > (x + 16))
+        if (oCharacter.x > (x + 30))
             xVel = xveloffset
-        if (oCharacter.x < (x - 16))
+        if (oCharacter.x < (x - 30))
             xVel = (xveloffset * -1)
-        if (oCharacter.x >= (x - 8) && oCharacter.x <= (x + 8))
+        if (oCharacter.x >= (x - 30) && oCharacter.x <= (x + 30))
             xVel = 0
         clawlangle = 38
         clawrangle = -38

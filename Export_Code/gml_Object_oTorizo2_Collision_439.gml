@@ -1,4 +1,4 @@
-if (myhealth > 0 && state > 0 && canbehit)
+if (myhealth > 0 && state > 0 && canbehit && state != 100)
 {
     if other.chargebeam
     {

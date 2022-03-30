@@ -47,20 +47,20 @@ if (state == 30 || state == 31)
 {
     if (yVel < 0)
     {
-        proj = instance_create(((x - 32) + irandom(64)), (y + 23), oAutoHordeXFlame)
+        proj = instance_create(((x - 32) + irandom(64)), (y + 16), oAutoHordeXFlame)
         proj.direction = (265 + irandom(10))
-        proj.speed = (yVel * -0.7)
+        proj.speed = (yVel * -1)
     }
     if (yVel > 0)
     {
-        proj = instance_create(((x - 32) + irandom(64)), (y - 16), oAutoHordeXFlame)
+        proj = instance_create(((x - 32) + irandom(64)), (y + 16), oAutoHordeXFlame)
         proj.direction = (85 + irandom(10))
-        proj.speed = (yVel * -0.7)
+        proj.speed = (yVel * -0.9)
     }
     if (yVel == 0)
     {
-        proj = instance_create(((x - 32) + irandom(64)), y, oAutoHordeXFlame)
-        proj.direction = irandom(359)
+        proj = instance_create(((x - 32) + irandom(64)), (y + 8), oAutoHordeXFlame)
+        proj.direction = irandom(180)
         proj.speed = 2.8
     }
     proj.depth = choose(0, -15, -30)

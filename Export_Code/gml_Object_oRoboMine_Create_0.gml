@@ -31,3 +31,4 @@ for (i = 0; i < 10; i += 1)
     tgty[i] = y
 }
 spark = -4
+AFDayEnemy(sHordeElecTurn, 305)

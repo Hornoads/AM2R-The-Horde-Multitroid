@@ -7,3 +7,5 @@ alarm[0] = 60
 balpha = 0
 if (os_type == os_android)
     os_powersave_enable(0)
+if AFDCheck()
+    sprite_index = sHordeBOX

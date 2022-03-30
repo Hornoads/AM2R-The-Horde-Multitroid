@@ -1,4 +1,4 @@
-state = 1
+state = (1 + (9 * xtreme))
 statetime = 0
 sfx_play(sndMOmegaIntro)
 roaring = 90

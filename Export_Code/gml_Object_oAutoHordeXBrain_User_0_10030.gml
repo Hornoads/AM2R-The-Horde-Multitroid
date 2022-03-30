@@ -20,7 +20,7 @@ if (hp <= 0)
     {
         sfx_play(sndCoreXHit)
         phase += 1
-        spawn_many_powerups((x - 16), (y - 16), 32, 32)
+        monster_spawn_powerups((x - 16), (y - 32), Bigspawn, Smallspawn)
         with (oAutoHordeX)
         {
             eyemode += (1 + (4 * xtreme))
@@ -30,7 +30,7 @@ if (hp <= 0)
         flashing = 150
         state = 0
         statetime = 0
-        hp = 55
+        hp = (55 + (45 * oAutoHordeX.xtreme))
     }
 }
 else

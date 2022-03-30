@@ -12,3 +12,8 @@ center_y = 0
 myspr = sprite_index
 freezetime = 0
 fxtimer = 0
+if AFDCheck()
+{
+    myspr = 304
+    image_index = 4
+}

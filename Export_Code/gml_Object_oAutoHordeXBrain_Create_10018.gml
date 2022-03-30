@@ -2,7 +2,7 @@ canbeX = 1
 canbehit = 0
 makeActive()
 setCollisionBounds(-4, -12, 4, 0)
-hp = 55
+hp = (55 + (45 * oAutoHordeX.xtreme))
 state = 0
 phase = 0
 statetime = 0
@@ -12,3 +12,5 @@ dead = 0
 image_speed = 0.1
 Bcol = 16777215
 scan_log(48, get_text("ScanEvents", "ScanBioform"), 420, 0)
+Bigspawn = (5 - (3 * oAutoHordeX.xtreme))
+Smallspawn = (12 - (7 * oAutoHordeX.xtreme))

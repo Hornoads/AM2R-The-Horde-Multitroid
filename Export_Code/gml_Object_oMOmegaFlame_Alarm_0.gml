@@ -1,1 +1,1 @@
-image_speed = 0.4
+image_speed = 0.34

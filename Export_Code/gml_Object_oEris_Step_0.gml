@@ -360,7 +360,7 @@ if use2
     event_user(2)
     use2 = 0
 }
-if (global.event[261] > 0 && (!dead))
+if (global.event[261] > 0 && (!dead) && state != 10)
 {
     state = 100
     statetime = -1

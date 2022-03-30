@@ -68,7 +68,7 @@ if (state == 1)
         yoff = 0
         head_yoff = 0
         head_follow = 1
-        xVel = (2 * facing)
+        xVel = ((2 + xtreme) * facing)
     }
     if ((targetx < x && facing == 1) || (targetx > x && facing == -1))
     {
@@ -90,7 +90,7 @@ if (state == 1)
             if ((msl.x > x && facing == 1) || (msl.x < x && facing == -1))
             {
                 swiping = 1
-                noswipe = 150
+                noswipe = (145 - (xtreme * 115))
                 farm_spr = sMZeta_FArm_Swipe
                 farm_frame = 8
                 sfx_play(sndMZetaAttack2)
@@ -103,7 +103,7 @@ if (state == 1)
         if (x > (limit_left + 32) && x < (limit_right - 32))
         {
             swiping = 1
-            noswipe = 150
+            noswipe = (145 - (xtreme * 50))
             farm_spr = sMZeta_FArm_Swipe
             farm_frame = 8
             sfx_play(sndMZetaAttack2)
@@ -120,7 +120,7 @@ if (state == 1)
         if (farm_frame >= 6 && farm_frame < 6.5)
         {
             proj = instance_create((((x - surf_x) + farm_x) + (14 * facing)), (((y - surf_y) + farm_y) + 10), oMZetaSlashProj2)
-            proj.hspeed = (2 * facing)
+            proj.hspeed = ((2 + xtreme) * facing)
             proj.image_xscale = facing
             sfx_play(sndArachnusSwipe)
         }
@@ -131,14 +131,14 @@ if (state == 1)
         }
     }
     else
-        xVel = (2 * facing)
+        xVel = ((2 + xtreme) * facing)
     if (hits_taken >= 2 && statetime > 30 && ((oCharacter.x > x && facing == 1) || (oCharacter.x < x && facing == -1)))
     {
         state = choose(3, 6, 8)
         statetime = 0
         hits_taken = 0
     }
-    if (statetime == 120 && target_mode == 0)
+    if (statetime == (120 - (60 * xtreme)) && target_mode == 0)
     {
         state = choose(3, 6, 8)
         statetime = 0
@@ -451,9 +451,16 @@ if (state == 4)
         yoff = 0
         head_yoff = 0
         yVel = -4.4
-        xVel = (4 * facing)
+        xVel = ((4 + xtreme) * facing)
         sfx_play(sndMZetaJump)
+        if (xtreme == 1)
+        {
+            alarm[0] = 7
+            sfx_play(sndMZetaAcid)
+        }
     }
+    if (xtreme == 1 && yVel >= 0)
+        sfx_stop(sndMZetaAcid)
     if (statetime < 10)
     {
         bleg_frame = 0
@@ -959,24 +966,24 @@ if (state == 11)
         head_follow = 0
         xVel = 0
         head_target_angle = (-10 * facing)
-        alarm[0] = 30
+        alarm[0] = 20
     }
-    if (statetime < 30)
+    if (statetime < 20)
     {
         fleg_frame = anim_frame(sMZeta_FLeg_Crouch, fleg_frame, 0.5)
         bleg_frame = fleg_frame
     }
     if (statetime == 10)
         mask_index = sMZetaMask2
-    if (statetime == 30)
+    if (statetime == 20)
     {
         head_target_angle = (30 * facing)
         body_target_angle = 10
         sfx_play(sndMZetaAcid)
     }
-    if (statetime > 20 && statetime < 60)
+    if (statetime > 10 && statetime < 60)
         roaring = 1
-    if (statetime > 90)
+    if (statetime > 80)
     {
         fleg_frame = anim_frame(sMZeta_FLeg_Crouch, fleg_frame, -0.5)
         bleg_frame = fleg_frame
@@ -1194,7 +1201,7 @@ if (noswipe > 0)
 if (roaring > 0)
     roaring -= 1
 moveTo(xVel, yVel)
-if (global.metdead[myid] == 1 && (!dead))
+if (myid != 52 && global.metdead[myid] == 1 && (!dead))
 {
     myhealth = 0
     state = 100
@@ -1220,6 +1227,7 @@ if (global.metdead[myid] == 1 && (!dead))
 }
 if (myid == 52 && global.event[331] >= 4 && (!dead) && state < 90)
 {
+    dead = 1
     myhealth = 0
     event_user(0)
 }

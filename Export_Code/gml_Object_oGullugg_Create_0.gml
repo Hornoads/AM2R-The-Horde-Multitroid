@@ -15,3 +15,4 @@ flipx = 0
 target = 0
 canattack = 1
 state = 1
+AFDayEnemy(sHornoadTurn, 305)

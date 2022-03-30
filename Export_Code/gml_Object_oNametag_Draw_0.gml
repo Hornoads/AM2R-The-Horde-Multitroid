@@ -62,6 +62,8 @@ else if (ds_list_size(oClient.roomListData) > 0)
                             offset = 64
                         if (string_lower(arrName) == "d-388")
                             offset = 55
+                        if (string_lower(arrName) == "quack")
+                            offset = 55
                         draw_set_font(global.fontGUI2)
                         draw_set_halign(fa_center)
                         draw_cool_text(arrX, (arrY - offset), text, c_black, c_white, c_white, 1)
@@ -80,6 +82,8 @@ else if (ds_list_size(oClient.roomListData) > 0)
                     if (string_lower(arrName) == "rememberme?")
                         offset = 64
                     if (string_lower(arrName) == "d-388")
+                        offset = 55
+                    if (string_lower(arrName) == "quack")
                         offset = 55
                     draw_set_font(global.fontGUI2)
                     draw_set_halign(fa_center)

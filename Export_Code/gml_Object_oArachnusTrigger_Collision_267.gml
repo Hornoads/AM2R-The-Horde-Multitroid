@@ -1,4 +1,6 @@
 with (oArachnusStatue)
     event_user(0)
 mus_current_fadeout()
+with (oDoor)
+    event_user(0)
 instance_destroy()

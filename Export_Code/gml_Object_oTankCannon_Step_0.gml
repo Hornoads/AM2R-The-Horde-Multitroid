@@ -11,9 +11,9 @@ if (damaged == 0)
             charge_frame += 0.25
         else
         {
-            shots = (3 - beamIndex)
-            alarm[2] = 30
-            cooldown = 230
+            shots = ((3 - beamIndex) + oTank.xtreme)
+            alarm[2] = (30 - (15 * oTank.xtreme))
+            cooldown = (230 - (115 * oTank.xtreme))
             with (oTank)
                 tgt_aangle = 20
         }
@@ -23,7 +23,7 @@ if (damaged == 0)
         cooldown -= 1
         if (charge_frame > 0 && shots == 0)
             charge_frame -= 1
-        if (cooldown == 100)
+        if (cooldown == (100 - (50 * oTank.xtreme)))
         {
             if (beamIndex < 2)
                 beamIndex += 1

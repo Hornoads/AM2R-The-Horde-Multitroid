@@ -23,3 +23,4 @@ alarm[0] = 1
 alarm[1] = 120
 hitemp = 1
 empspr = 346
+AFDayEnemy(sHornoadAttack, 1817)

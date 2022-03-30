@@ -4,7 +4,7 @@ projy = (y + lengthdir_y(60, direction))
 proj = instance_create(projx, projy, oTankProjectile)
 proj.direction = direction
 proj.image_angle = direction
-proj.speed = 4
+proj.speed = (4 + oTank.xtreme)
 proj.type = beamType
 if (beamType == "ICE")
     proj.sprite_index = sTankProj2

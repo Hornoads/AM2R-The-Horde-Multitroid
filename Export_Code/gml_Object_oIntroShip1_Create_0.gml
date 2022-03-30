@@ -5,3 +5,5 @@ image_angle = -30
 statetime = 0
 scale = 0
 offset = 1
+if AFDCheck()
+    sprite_index = sHordeBOX

@@ -11,3 +11,4 @@ state = 0
 active = 0
 image_speed = 0
 light = instance_create(x, y, oLight32)
+AFDayEnemy(sHornoadTurn, 305)

@@ -19,3 +19,4 @@ targety = (y + 8)
 image_speed = 0.2
 if (global.difficulty >= 2)
     alarm[0] = 60
+AFDayEnemy(sHornoadJump, 305)

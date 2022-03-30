@@ -29,12 +29,12 @@ if (stun == 0 && state != 100)
             event_user(1)
         if (isCollisionBottom(1) && yVel > 0)
         {
-            sfx_play(sndA4DoorBolt)
             highjump = 0
             xVel = 0
             yVel = 0
             clawangle = -30
             alarm[0] = jt
+            sfx_play(sndA4DoorBolt)
             if (eye != -1)
                 event_user(15)
         }

@@ -18,3 +18,4 @@ startx = x
 starty = y
 if (room == rm_a3a28)
     myhealth = 30
+AFDayEnemy(sHordeMiniJump, 1794)

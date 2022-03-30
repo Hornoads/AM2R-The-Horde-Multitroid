@@ -16,7 +16,7 @@ else if (phase > 1)
 {
     if (statetime < 230)
         alarm[0] = 5
-    projspeed = 6
+    projspeed = 5.9
 }
 if (global.difficulty >= 2)
     projspeed += 1

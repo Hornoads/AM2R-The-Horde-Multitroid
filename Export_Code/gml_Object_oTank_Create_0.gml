@@ -33,3 +33,14 @@ statetime = 0
 movespeed = 0
 scan_log(36, get_text("ScanEvents", "ScanMechanism"), 180, 0)
 iceOff = 0
+xtreme = 0
+if (oControl.mod_monstersextremecheck == 1)
+{
+    xtreme = 1
+    damage *= 1.2
+    oTankCore.myhealth *= 1.2
+    oTankHead.myhealth *= 1.5
+    oTankBottom.myhealth *= 1.5
+    oTankShield.myhealth *= 1.2
+    oTankCannon.myhealth *= 1.5
+}

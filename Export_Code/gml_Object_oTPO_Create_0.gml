@@ -26,3 +26,4 @@ hitemp = 1
 empspr = 408
 if (room == rm_a3a28)
     myhealth = 60
+AFDayEnemy(sHornoadTurn, 305)

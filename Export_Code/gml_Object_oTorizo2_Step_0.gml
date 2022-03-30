@@ -75,6 +75,7 @@ if (state == 1)
         xAcc = 0.2
         yAcc = 0.15
         move = 1
+        canbehit = 1
         if (phase == 0)
         {
             if (stayaway == 0)
@@ -91,7 +92,7 @@ if (state == 1)
         if ((instance_exists(oTorizoGhost) || instance_exists(oTorizoEgg)) && global.difficulty < 2)
             maxSpeed *= 0.8
         if (xtreme == 1)
-            maxSpeed *= 1.1
+            maxSpeed *= 1.05
     }
     if (stayaway == 0)
     {
@@ -151,11 +152,10 @@ if (state == 1)
     {
         state = 4
         statetime = 0
-        phase += 1
         with (oTorizoSpikes)
             alarm[0] = 1
     }
-    if (usedbirds == 0 && phase == 1 && statetime == 120)
+    if (usedbirds == 0 && phase > 0 && statetime == 120)
     {
         state = 3
         statetime = 0
@@ -304,7 +304,7 @@ if (state == 5)
         hspeed = (16 * facing)
         sfx_play(sndTorizoAttack2)
     }
-    if (statetime == 150)
+    if (statetime == 150 && phase > 0)
     {
         facing = (-facing)
         if (facing == 1)
@@ -314,7 +314,7 @@ if (state == 5)
         if (oCharacter.yVel <= 0)
             y = (oCharacter.y - 8)
         if (oCharacter.yVel > 0)
-            y = (oCharacter.y + 24)
+            y = (oCharacter.y + 16)
         hspeed = (18 * facing)
         sfx_play(sndTorizoAttack2)
     }
@@ -328,7 +328,7 @@ if (state == 5)
         if (oCharacter.yVel <= 0)
             y = (oCharacter.y - 32)
         if (oCharacter.yVel > 0)
-            y = (oCharacter.y + 32)
+            y = (oCharacter.y + 4)
         hspeed = (20 * facing)
         sfx_play(sndTorizoAttack2)
     }
@@ -360,8 +360,10 @@ if (state == 5)
         hspeed = (24 * facing)
         sfx_play(sndTorizoAttack2)
     }
-    if (statetime == 280)
+    if (statetime == 285)
     {
+        phase += 1
+        canbehit = 1
         facing = (-facing)
         state = 6
         statetime = 0
@@ -399,6 +401,7 @@ if (state == 6)
 }
 if (state == 100)
 {
+    canbehit = 0
     sprite_index = sTorizoFly
     image_index = 1
     image_speed = 0

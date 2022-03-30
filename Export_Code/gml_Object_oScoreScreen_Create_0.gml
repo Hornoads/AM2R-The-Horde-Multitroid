@@ -32,6 +32,12 @@ text2a = (string(round(((global.itemstaken / 88) * 100))) + "%")
 text3 = get_text("ScoreScreen", "SeeYouNextMission")
 text4 = get_text("ScoreScreen", "TheLastMonster")
 text5 = get_text("ScoreScreen", "ToBeContinued")
+if AFDCheck()
+{
+    text3 = "Until Next Bufo"
+    text4 = "The last Bufo is in Bufo#The Bufo is at Bufo"
+    text5 = "Happy New Year! (lol)"
+}
 statetime = 0
 state = 0
 itemstaken = global.itemstaken

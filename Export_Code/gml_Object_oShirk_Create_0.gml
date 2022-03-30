@@ -30,3 +30,4 @@ turning = 0
 inwater = 0
 hitemp = 1
 empspr = 352
+AFDayEnemy(sHornoadAttack, 1817)

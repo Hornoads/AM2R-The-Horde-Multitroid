@@ -6,15 +6,15 @@ fallondeath = 0
 switch argument0
 {
     case 0:
-        maxspeedx = 3
-        maxspeedy = 2
+        maxspeedx = 2.7
+        maxspeedy = 1.7
         myaccelx = 0.08
         myaccely = 0.09
-        chasedelay = 90
-        awaydelay = 140
-        awayoffsetx = 5
+        chasedelay = 120
+        awaydelay = 300
+        awayoffsetx = 32
         awayoffsety = -55
-        myhealth = 100
+        myhealth = 70
         damage = 5
         givebackhp = 100
         fallondeath = 1
@@ -28,7 +28,7 @@ switch argument0
         awaydelay = 150
         awayoffsetx = -20
         awayoffsety = -40
-        myhealth = 90
+        myhealth = 70
         damage = 7
         givebackhp = 150
         fallondeath = 1
@@ -70,7 +70,7 @@ switch argument0
         awayoffsetx = -80
         awayoffsety = -32
         hitandrun = 1
-        myhealth = 90
+        myhealth = 70
         damage = 8
         givebackhp = 175
         break
@@ -147,7 +147,7 @@ switch argument0
         givebackhp = 200
         break
     case 10:
-        maxspeedx = 3.3
+        maxspeedx = 3.1
         maxspeedy = 2.7
         myaccelx = 0.09
         myaccely = 0.1
@@ -155,25 +155,25 @@ switch argument0
         awaydelay = 250
         awayoffsetx = -80
         awayoffsety = -30
-        canspmove = 1
+        canspmove = 0
         candodge = 1
         myhealth = 70
-        damage = 15
-        givebackhp = 200
+        damage = 12
+        givebackhp = 250
         break
     case 11:
-        maxspeedx = 3.8
+        maxspeedx = 3.5
         maxspeedy = 2.4
-        myaccelx = 0.08
-        myaccely = 0.1
+        myaccelx = 0.07
+        myaccely = 0.08
         chasedelay = 90
         awaydelay = 250
         awayoffsetx = -20
         awayoffsety = 30
         canspmove = 1
-        candodge = 1
+        candodge = 0
         myhealth = 70
-        damage = 15
+        damage = 12
         givebackhp = 200
         break
     case 12:
@@ -519,14 +519,14 @@ switch argument0
         givebackhp = 100
         break
     case 34:
-        maxspeedx = 4
-        maxspeedy = 1.4
+        maxspeedx = 5
+        maxspeedy = 1.2
         myaccelx = 0.08
         myaccely = 0.2
         chasedelay = 80
         awaydelay = 140
-        awayoffsetx = -28
-        awayoffsety = -4
+        awayoffsetx = -16
+        awayoffsety = -16
         canspmove = 1
         candodge = 1
         myhealth = 100
@@ -649,6 +649,7 @@ switch argument0
         awayoffsetx = 40
         awayoffsety = -16
         hitandrun = 1
+        canspmove = 1
         candodge = 1
         myhealth = 80
         damage = 30
@@ -684,6 +685,7 @@ if (global.difficulty >= 2)
     myaccelx *= 1.5
     myaccely *= 1.2
 }
+xtreme = 0
 if (oControl.mod_monstersextremecheck == 1)
 {
     maxspeedx *= 1.2
@@ -695,6 +697,7 @@ if (oControl.mod_monstersextremecheck == 1)
     damage *= 1.1
     givebackhp *= 0.8
     myhealth *= 1.2
+    xtreme = 1
 }
 myhealth *= global.mod_alphagammaH
 damage *= global.mod_alphagammaD

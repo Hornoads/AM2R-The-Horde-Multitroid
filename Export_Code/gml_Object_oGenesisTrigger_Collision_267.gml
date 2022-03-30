@@ -1,4 +1,4 @@
-if (oControl.mod_fusion == 1 && check == 0)
+if (oControl.mod_fusion == 1 && check == 0 && alarm[1] == -1)
     alarm[1] = 200
 if (global.item[oControl.mod_50] == 1 || (oControl.mod_fusion == 1 && check == 1))
 {

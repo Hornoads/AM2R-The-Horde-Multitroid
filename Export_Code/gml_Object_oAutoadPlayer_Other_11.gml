@@ -9,7 +9,7 @@ if (room == rm_a3a28)
 {
     mvel = ((oControl.kLeft * -1) + (oControl.kRight * 1))
     msl.hspeed = ((xVel * 0.25) + (((clamp(oControl.kMissilePushedSteps, 0, 20) / 2) + 3) * mvel))
-    msl.vspeed = min(-2, (((yVel * 0.8) + ((clamp(oControl.kMissilePushedSteps, 0, (oControl.kUp * 20)) / 5) * -1)) + (oControl.kUp * -4)))
+    msl.vspeed = min(-2, (((yVel * 0.8) + ((clamp(oControl.kMissilePushedSteps, 0, (oControl.kUp * 20)) / 4) * -1)) + (oControl.kUp * -3.8)))
     hasmissile = 1
     miscd = 5
 }

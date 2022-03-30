@@ -1,4 +1,4 @@
-if (sand == 0 && collision_line(x, y, oCharacter.x, (oCharacter.y - 16), oBlockSand, false, true))
+if (state < 7 && sand == 0 && collision_line(x, y, oCharacter.x, (oCharacter.y - 16), oBlockSand, false, true))
 {
     sand = 1
     state = 7

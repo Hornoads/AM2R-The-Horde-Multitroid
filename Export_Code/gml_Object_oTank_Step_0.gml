@@ -18,7 +18,7 @@ if (state == 0)
     {
         state = 1
         statetime = 0
-        movespeed = (0.1 + (0.1 * oControl.mod_diffmult))
+        movespeed = ((0.1 + (0.1 * oControl.mod_diffmult)) + (0.1 * xtreme))
         bottom.image_speed = movespeed
     }
 }

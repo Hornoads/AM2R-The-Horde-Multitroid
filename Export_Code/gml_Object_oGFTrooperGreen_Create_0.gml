@@ -5,3 +5,4 @@ firing = 0
 fframe = 0
 if (global.event[300] == 1)
     instance_destroy()
+AFDayProj(sDoomVorse)

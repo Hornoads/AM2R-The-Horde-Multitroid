@@ -7,3 +7,4 @@ else
     global.waterlevel = 0
     global.watertype = 0
 }
+mus_change(mus_get_main_song())

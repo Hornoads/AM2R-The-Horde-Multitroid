@@ -8,3 +8,5 @@ statetime = 0
 xoff = 30
 zoomratio = 0.04
 fxtimer = 0
+if AFDCheck()
+    sprite_index = sHordeBOX

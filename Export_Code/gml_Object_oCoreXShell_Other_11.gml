@@ -66,6 +66,8 @@ if (room == rm_a5c07)
         with (oA5ActivationBG)
             i = 0
     }
+    with (oCrystalSolidX)
+        image_speed = 0.1
     mus_current_fadein()
     mus_change(musArea5B)
 }

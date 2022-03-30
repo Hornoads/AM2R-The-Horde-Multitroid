@@ -91,7 +91,7 @@ if (active == 1)
         {
             if ((oCharacter.y - 48) > y)
             {
-                yVel = 2.5
+                yVel = (2.5 + xtreme)
                 if (oCharacter.x > x)
                     xVel = -3.5
                 if (oCharacter.x < x)
@@ -101,19 +101,19 @@ if (active == 1)
             {
                 yVel = -4
                 if (oCharacter.x > x)
-                    xVel = 1
+                    xVel = 2
                 if (oCharacter.x < x)
-                    xVel = -1
+                    xVel = -2
             }
             dodging = 1
             dodgetime = 0
-            dodgedelay = 300
+            dodgedelay = (300 - (150 * xtreme))
             alarm[2] = 1
             currentangle = -10
             canbehit = 0
             sfx_play(sndMGammaDodge)
         }
-        if (dodging && dodgetime >= 8)
+        if (dodging && dodgetime >= (8 + (xtreme * 4)))
         {
             dodging = 0
             canbehit = 1
@@ -158,13 +158,13 @@ if (active == 1)
     if (state == 5)
     {
         if (statetime < 10)
-            xVel *= 0.98
+            xVel *= 0.95
         if (statetime == 10)
         {
             if (oCharacter.x > x)
-                xVel = 6
+                xVel = (6 + xtreme)
             if (oCharacter.x < x)
-                xVel = -6
+                xVel = (-6 - xtreme)
             yVel = 0
             grabber = instance_create(x, y, oMGammaGrab)
         }

@@ -7,11 +7,11 @@ xtreme = 0
 if (oControl.mod_monstersextremecheck == 1)
 {
     rptmiss = 3
-    armplus = 50
+    armplus = 100
     damage = 70
     xtreme = 1
 }
-armor = (160 + armplus)
+armor = (250 + armplus)
 hpush = 5
 vpush = -3
 hitmissileexpl = 0
@@ -62,3 +62,8 @@ statetime = 0
 dsolid = 0
 jl = 22
 samin = 0
+smax = 50
+disolid1 = -1
+disolid2 = -1
+disolid3 = -1
+disolid4 = -1

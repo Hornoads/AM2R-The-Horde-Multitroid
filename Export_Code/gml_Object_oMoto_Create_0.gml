@@ -11,3 +11,4 @@ frozenspr = 423
 state = 0
 facing = 1
 mymask = instance_create(x, y, oMotoMask)
+AFDayEnemy(sHordeAttack, 1790)

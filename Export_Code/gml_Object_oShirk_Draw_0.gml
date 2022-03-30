@@ -21,6 +21,8 @@ else
     armor1turn = sShirkTurnArmor1
     armor2turn = sShirkTurnArmor2
 }
+if AFDCheck()
+    turn = sHornoadTurn
 image_xscale = facing
 if (frozen == 0)
     image_speed = 0.5

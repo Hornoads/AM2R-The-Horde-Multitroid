@@ -19,7 +19,7 @@ if (state == 0)
 {
     if (statetime == 0)
     {
-        if (angry < 100)
+        if (angry < angrymax)
             canbehit = 1
         else
             canbehit = 0
@@ -66,7 +66,7 @@ if (state == 0)
             state = 8
             statetime = -1
         }
-        if (angry >= 100)
+        if (angry >= angrymax)
         {
             state = 50
             statetime = -1
@@ -199,7 +199,7 @@ if (state == 4)
         sprite_index = sArachnusUnmorph
         vspeed = 0
         gravity = 0
-        if (angry >= 100)
+        if (angry >= angrymax)
         {
             if (oCharacter.x < x)
                 facing = -1
@@ -500,8 +500,8 @@ else
     fxtimer = 0
 if (flashing > 0)
     flashing -= 1
-if (angry > 100)
-    angry = 100
+if (angry > angrymax)
+    angry = angrymax
 if (PowerBombImmune && xtreme == 0)
 {
     if (!instance_exists(oPBombExpl))

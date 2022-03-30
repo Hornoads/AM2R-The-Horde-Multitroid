@@ -18,6 +18,17 @@ if (!frozen)
     center_y = (y + lengthdir_y(20, image_angle))
 }
 if (frozen > 0)
+{
     myspr = 416
+    if AFDCheck()
+        myspr = 1817
+}
 else
+{
     myspr = 415
+    if AFDCheck()
+    {
+        myspr = 304
+        image_index = 4
+    }
+}
