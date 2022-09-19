@@ -111,14 +111,6 @@ if (stun > 0)
     stun -= 1
 if (flashing > 0)
     flashing -= 1
-if isCollisionBottom(0)
-    y -= 1
-if (isCollisionRight(0) || isCollisionSlope(1) == 1)
-    x -= 1
-if (isCollisionLeft(0) || isCollisionSlope(1) == 2)
-    x += 1
-if isCollisionTop(0)
-    y += 1
 if (global.event[serialnumber] >= 1 && (!dead))
 {
     myhealth = 0

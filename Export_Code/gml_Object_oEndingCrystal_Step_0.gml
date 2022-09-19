@@ -83,7 +83,7 @@ if (transition == 2)
     {
         if (pixelateTimer == 60)
         {
-            sprite_index = sHornoadXFall
+            sprite_index = sDoomVorse
             image_speed = 0
         }
         sizeX -= 0.09
@@ -114,7 +114,7 @@ if (stage == 2)
         sprite_index = sXInfect
         PlaySoundMono(sndXInfect)
         image_index = 0
-        image_speed = 0.16666666666666666
+        image_speed = 0.167
     }
 }
 if (stage == 3)

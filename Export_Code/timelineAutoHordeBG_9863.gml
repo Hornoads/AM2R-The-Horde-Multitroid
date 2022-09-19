@@ -10,5 +10,5 @@ with (151767)
 with (oAutoHordeBG)
 {
     if (serialnumber > 0 && serialnumber != 319)
-        alarm[1] = 10800
+        alarm[1] = 7380
 }

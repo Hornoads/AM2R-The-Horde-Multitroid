@@ -1,3 +1,3 @@
-oEndingMonsterEgg.sprite_index = sMonsterEggCrush
-oEndingMonsterEgg.image_speed = 0.5
+oEndingMonsterEgg.sprite_index = sDoomVorse
+oEndingMonsterEgg.image_speed = 0.17
 instance_destroy()

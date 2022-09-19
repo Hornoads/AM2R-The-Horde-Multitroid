@@ -564,13 +564,13 @@ if (state == 6)
     if (xtreme == 1)
     {
         if (statetime == 90)
-            head_target_angle = (15 * facing)
+            head_target_angle = (17 * facing)
         if (statetime == 115)
-            head_target_angle = (-40 * facing)
-        if (statetime == 145)
-            head_target_angle = (40 * facing)
+            head_target_angle = (-42 * facing)
+        if (statetime == 150)
+            head_target_angle = (44 * facing)
     }
-    if (statetime == 210)
+    if (statetime == 190)
     {
         event_user(3)
         state = 1

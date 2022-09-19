@@ -1,11 +1,11 @@
 var dmg, flashtime;
 if (state < 90 && myhealth > 0)
 {
-    dmg = 10
+    dmg = (10 + (5 * global.icemissiles))
     flashtime = 20
     if (isbeam == 1)
     {
-        dmg = 20
+        dmg = (15 - (7 * global.semiauto))
         flashtime = 35
         isbeam = 0
     }

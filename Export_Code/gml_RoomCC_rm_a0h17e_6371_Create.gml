@@ -3,4 +3,4 @@ if (global.event[178] == 0)
 facing = 1
 myid = 26
 limit_right = 1024
-limit_left = 176
+limit_left = 184

@@ -14,7 +14,7 @@ if (global.difficulty >= 2 || myhealth < 150)
     canswipe = 1
 else
     canswipe = 0
-if (isCollisionBottom(1) == 0)
+if (isCollisionBottom(1) == 0 && state != 9)
     yVel += 0.2
 else if (yVel > 0)
     yVel = 0
@@ -90,7 +90,7 @@ if (state == 1)
             if ((msl.x > x && facing == 1) || (msl.x < x && facing == -1))
             {
                 swiping = 1
-                noswipe = (145 - (xtreme * 115))
+                noswipe = (145 - (xtreme * 85))
                 farm_spr = sMZeta_FArm_Swipe
                 farm_frame = 8
                 sfx_play(sndMZetaAttack2)

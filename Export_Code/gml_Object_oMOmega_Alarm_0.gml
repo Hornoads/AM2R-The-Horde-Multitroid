@@ -11,7 +11,7 @@ if (state == 5)
 }
 else if (state == 6)
 {
-    if (statetime < 190)
+    if (statetime < 170)
         alarm[0] = 3
 }
 else if (state == 11)
