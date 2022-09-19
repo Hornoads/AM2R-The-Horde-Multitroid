@@ -1,5 +1,5 @@
 var xx, yy, spawnX;
-if (irandom(50) < argument0)
+if (irandom(100) < argument0 && instance_number(oXPickup) < 17)
 {
     if (canbeX == 1)
         xParasite = "What, you expected something useful?"

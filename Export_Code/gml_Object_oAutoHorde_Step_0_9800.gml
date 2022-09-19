@@ -33,6 +33,7 @@ if (stun == 0 && state != 100)
             xVel = 0
             yVel = 0
             clawangle = -30
+            statetime = 0
             alarm[0] = jt
             sfx_play(sndA4DoorBolt)
             if (eye != -1)
@@ -110,6 +111,14 @@ if (stun > 0)
     stun -= 1
 if (flashing > 0)
     flashing -= 1
+if isCollisionBottom(0)
+    y -= 1
+if (isCollisionRight(0) || isCollisionSlope(1) == 1)
+    x -= 1
+if (isCollisionLeft(0) || isCollisionSlope(1) == 2)
+    x += 1
+if isCollisionTop(0)
+    y += 1
 if (global.event[serialnumber] >= 1 && (!dead))
 {
     myhealth = 0

@@ -533,37 +533,37 @@ switch type_event
                                     {
                                         global.bomb = 1
                                         global.bombPrev = global.bomb
-                                        popup_text(((get_text("Items", "Frog Eggs") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "Bombs") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 1)
                                     {
                                         global.powergrip = 1
                                         global.powergripPrev = global.powergrip
-                                        popup_text(((get_text("Items", "Sticky Fingers") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "PowerGrip") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 2)
                                     {
                                         global.spiderball = 1
                                         global.spiderballPrev = global.spiderball
-                                        popup_text(((get_text("Items", "Suction Cups") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "SpiderBall") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 3)
                                     {
                                         global.jumpball = 1
                                         global.jumpballPrev = global.jumpball
-                                        popup_text(((get_text("Items", "Sing-a-Long") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "JumpBall") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 4)
                                     {
                                         global.hijump = 1
                                         global.hijumpPrev = global.hijump
-                                        popup_text(((get_text("Items", "Frog Legs") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "HiJump") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 5)
                                     {
                                         global.currentsuit = 1
                                         global.currentsuitPrev = global.currentsuit
-                                        popup_text(((get_text("Items", "Toadskin") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "VariaSuit") + " ") + get_text("GlobalOptions", "Enabled")))
                                         if sfx_isplaying(sndSpinJump)
                                             sfx_stop(sndSpinJump)
                                         if sfx_isplaying(sndSpaceJump)
@@ -577,7 +577,7 @@ switch type_event
                                     {
                                         global.spacejump = 1
                                         global.spacejumpPrev = global.spacejump
-                                        popup_text(((get_text("Items", "Red Bird") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "SpaceJump") + " ") + get_text("GlobalOptions", "Enabled")))
                                         if sfx_isplaying(sndSpinJump)
                                             sfx_stop(sndSpinJump)
                                         if sfx_isplaying(sndSpaceJump)
@@ -591,13 +591,13 @@ switch type_event
                                     {
                                         global.speedbooster = 1
                                         global.speedboosterPrev = global.speedbooster
-                                        popup_text(((get_text("Items", "2Fast4U") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "SpeedBooster") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 8)
                                     {
                                         global.screwattack = 1
                                         global.screwattackPrev = global.screwattack
-                                        popup_text(((get_text("Items", "Spark Spin") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "ScrewAttack") + " ") + get_text("GlobalOptions", "Enabled")))
                                         if sfx_isplaying(sndSpinJump)
                                             sfx_stop(sndSpinJump)
                                         if sfx_isplaying(sndSpaceJump)
@@ -611,7 +611,7 @@ switch type_event
                                     {
                                         global.currentsuit = 2
                                         global.currentsuitPrev = global.currentsuit
-                                        popup_text(((get_text("Items", "Mucous Membrane") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "GravitySuit") + " ") + get_text("GlobalOptions", "Enabled")))
                                         if sfx_isplaying(sndSpinJump)
                                             sfx_stop(sndSpinJump)
                                         if sfx_isplaying(sndSpaceJump)
@@ -625,31 +625,31 @@ switch type_event
                                     {
                                         global.cbeam = 1
                                         global.cbeamPrev = global.cbeam
-                                        popup_text(((get_text("Items", "Focus") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "ChargeBeam") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 11)
                                     {
                                         global.ibeam = 1
                                         global.ibeamPrev = global.ibeam
-                                        popup_text(((get_text("Items", "Chill") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "IceBeam") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 12)
                                     {
                                         global.wbeam = 1
                                         global.wbeamPrev = global.wbeam
-                                        popup_text(((get_text("Items", "X-Ray") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "WaveBeam") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 13)
                                     {
                                         global.sbeam = 1
                                         global.sbeamPrev = global.sbeam
-                                        popup_text(((get_text("Items", "W I D E") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "SpazerBeam") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                     if (i == 14)
                                     {
                                         global.pbeam = 1
                                         global.pbeamPrev = global.pbeam
-                                        popup_text(((get_text("Items", "Pierce") + " ") + get_text("GlobalOptions", "Enabled")))
+                                        popup_text(((get_text("Items", "PlasmaBeam") + " ") + get_text("GlobalOptions", "Enabled")))
                                     }
                                 }
                             }

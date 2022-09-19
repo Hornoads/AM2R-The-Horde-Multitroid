@@ -15,6 +15,6 @@ else
     }
     angry += 2
     if other.chargebeam
-        angry += 12
+        angry += 16
     event_user(0)
 }

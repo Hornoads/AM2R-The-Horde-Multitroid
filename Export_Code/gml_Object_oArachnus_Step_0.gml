@@ -25,7 +25,7 @@ if (state == 0)
             canbehit = 0
         hspeed = 0
         if (xtreme == 1)
-            cyc = (3 - myhealth)
+            cyc = (4 - myhealth)
     }
     if (oCharacter.x < x && facing == 1 && turning == 0)
     {
@@ -319,9 +319,9 @@ if (state == 9)
         rotspeed = 0
         sfx_play(sndArachnusAirSpin)
     }
-    if (statetime < (60 - (10 * cyc)))
-        rotspeed += (1 + cyc)
-    if (statetime == (60 - (10 * cyc)))
+    if (statetime < (60 - (10 * (cyc + xtreme))))
+        rotspeed += ((1 + cyc) + xtreme)
+    if (statetime == (60 - (10 * (cyc + xtreme))))
     {
         sfx_stop(sndArachnusAirSpin)
         direction = point_direction(x, y, oCharacter.x, 208)

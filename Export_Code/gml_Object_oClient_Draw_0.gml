@@ -91,7 +91,7 @@ if (ds_list_size(roomListData) > 0)
                     if (string_lower(arrName) == "d-388" && string_count("JumpLeft", sprite_get_name(arrSprite)) == 0 && string_count("JumpRight", sprite_get_name(arrSprite)) == 0 && string_count("Ball", sprite_get_name(arrSprite)) == 0 && string_count("Walljump", sprite_get_name(arrSprite)) == 0 && string_count("Spacejump", sprite_get_name(arrSprite)) == 0)
                         draw_sprite_ext(sDVTorso, 2, arrX, (arrY - sprHeight), (1 * arrMirror), 1, direction, c_white, 1)
                     if (string_lower(arrName) == "quack" && string_count("JumpLeft", sprite_get_name(arrSprite)) == 0 && string_count("JumpRight", sprite_get_name(arrSprite)) == 0 && string_count("Ball", sprite_get_name(arrSprite)) == 0 && string_count("Walljump", sprite_get_name(arrSprite)) == 0 && string_count("Spacejump", sprite_get_name(arrSprite)) == 0)
-                        draw_sprite_ext(sHornoadIdle, 2, arrX, (arrY - sprHeight), (1 * arrMirror), 1, direction, c_white, 1)
+                        draw_sprite_ext(sQuackHead, 2, arrX, (arrY - sprHeight), (1 * arrMirror), 1, direction, c_white, 1)
                 }
             }
             else
@@ -115,7 +115,7 @@ if (ds_list_size(roomListData) > 0)
                 if (string_lower(arrName) == "d-388" && string_count("JumpLeft", sprite_get_name(arrSprite)) == 0 && string_count("JumpRight", sprite_get_name(arrSprite)) == 0 && string_count("Ball", sprite_get_name(arrSprite)) == 0 && string_count("Walljump", sprite_get_name(arrSprite)) == 0 && string_count("Spacejump", sprite_get_name(arrSprite)) == 0)
                     draw_sprite_ext(sDVTorso, 2, arrX, (arrY - sprHeight), (1 * arrMirror), 1, direction, c_white, 1)
                 if (string_lower(arrName) == "quack" && string_count("JumpLeft", sprite_get_name(arrSprite)) == 0 && string_count("JumpRight", sprite_get_name(arrSprite)) == 0 && string_count("Ball", sprite_get_name(arrSprite)) == 0 && string_count("Walljump", sprite_get_name(arrSprite)) == 0 && string_count("Spacejump", sprite_get_name(arrSprite)) == 0)
-                    draw_sprite_ext(sHornoadIdle, 2, arrX, (arrY - sprHeight), (1 * arrMirror), 1, direction, c_white, 1)
+                    draw_sprite_ext(sQuackHead, 2, arrX, (arrY - sprHeight), (1 * arrMirror), 1, direction, c_white, 1)
             }
         }
     }

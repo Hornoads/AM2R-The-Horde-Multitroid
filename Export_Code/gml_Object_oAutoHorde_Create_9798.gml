@@ -11,13 +11,13 @@ xAcc = 0
 yAcc = 0
 time = 0
 setCollisionBounds(-12, -12, 12, 16)
-myhealth = 400
+myhealth = 320
 canhit = 1
 damage = 21
 xtreme = 0
 if (oControl.mod_monstersextremecheck == 1)
 {
-    myhealth = 500
+    myhealth = 480
     damage = 42
     xtreme = 1
 }
@@ -49,7 +49,7 @@ stun = 0
 stuntime = 4
 target = 0
 state = 1
-statetime = 0
+statetime = -1
 alarm[0] = 100
 clawangle = 0
 clawx = -9

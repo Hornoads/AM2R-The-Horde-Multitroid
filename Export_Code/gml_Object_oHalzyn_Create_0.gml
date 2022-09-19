@@ -23,4 +23,21 @@ limit_l = (x - 80)
 limit_r = (x + 80)
 glow = 0
 eyeSprite = 1666
-AFDayEnemy(sHordeArea4Jump, 1794)
+AFDayEnemy(sAutoad, 1794)
+if (AFDCheck() == 1)
+{
+    shieldlava1 = 1783
+    shieldlava2 = 1783
+    shieldsp = 1783
+    shieldfrz = 1782
+    image_speed = 0.2
+    shield1.image_xscale = -1
+    shield2.image_xscale = 1
+}
+else
+{
+    shieldlava1 = 1700
+    shieldlava2 = 1701
+    shieldsp = 428
+    shieldfrz = 429
+}

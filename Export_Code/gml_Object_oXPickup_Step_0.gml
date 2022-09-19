@@ -189,7 +189,7 @@ if (state == 5)
             enemy.moveratio = lastEnemyMoveratio
             enemy.movesteps = lastEnemyMovesteps
             enemy.image_angle = lastAngle
-            if (lastEnemy == oHalzyn)
+            if (lastEnemy == oHalzyn && AFDCheck() == 0)
                 enemy.glow = lastEnemyGlow
             instance_destroy()
         }

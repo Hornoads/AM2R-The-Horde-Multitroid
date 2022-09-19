@@ -15,3 +15,4 @@ if (myid != 52)
 }
 cam = instance_create(x, y, oObjectCamera)
 cam.target_obj = id
+isactive = 1

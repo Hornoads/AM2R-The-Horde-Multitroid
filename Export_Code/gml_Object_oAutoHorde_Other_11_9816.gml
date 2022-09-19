@@ -3,7 +3,7 @@ if (image_index == 0)
 {
     sfx_play(sndFireMissile)
     prj1 = instance_create((x - 14), (y + 15), oTesterMissile)
-    prj2 = instance_create(x, (y + 15), oTesterMissile)
+    prj2 = instance_create(x, (y + 12), oTesterMissile)
     prj3 = instance_create((x + 14), (y + 15), oTesterMissile)
     prj1.ah = 1
     prj2.ah = 1
@@ -11,7 +11,7 @@ if (image_index == 0)
 }
 else if (image_index == 1)
 {
-    prj1 = instance_create(x, (y + 15), oA3Beam)
+    prj1 = instance_create(x, (y + 12), oA3Beam)
     prj1.alarm[0] = 1
     prj1.image_yscale = 4
     sfx_play(sndALWelder)

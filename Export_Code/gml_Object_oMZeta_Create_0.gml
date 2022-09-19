@@ -113,3 +113,4 @@ starthealth = myhealth
 dead = 0
 isbeam = 0
 issmissile = 0
+cam = -1

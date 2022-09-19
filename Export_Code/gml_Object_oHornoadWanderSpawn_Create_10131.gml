@@ -6,7 +6,7 @@ if oControl.widescreen
 if (room == rm_a0h01)
     alarm[0] = 420
 else
-    alarm[0] = random(300)
+    alarm[0] = random(380)
 image_speed = 0
 x = 0
 y = 0

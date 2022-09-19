@@ -9,5 +9,5 @@ if active
     sp1.image_yscale = choose(1, -1)
     sp1.image_angle = random(360)
     sp1.depth = -101
-    alarm[1] = (3 + irandom(12))
+    alarm[1] = (3 + irandom(30))
 }

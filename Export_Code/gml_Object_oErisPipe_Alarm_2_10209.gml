@@ -11,7 +11,7 @@ if (state == 1)
         spwn.tgtx[3] = (midx + (irandom_range(8, 24) * facing))
         pod += 1
     }
-    alarm[2] = 120
+    alarm[2] = 140
     if (init > 0)
     {
         alarm[2] = 42

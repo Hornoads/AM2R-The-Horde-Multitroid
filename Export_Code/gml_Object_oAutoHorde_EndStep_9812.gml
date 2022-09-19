@@ -24,5 +24,5 @@ if (instance_exists(leg1) && instance_exists(leg2))
 if instance_exists(oA3Beam)
 {
     oA3Beam.x = x
-    oA3Beam.y = (y + 15)
+    oA3Beam.y = (y + 12)
 }

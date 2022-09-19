@@ -1083,8 +1083,11 @@ if (state == 100)
         blur = 0
         sfx_play(sndMZetaDeath)
         roaring = 100
-        with (cam)
-            instance_destroy()
+        if (cam != self)
+        {
+            with (cam)
+                instance_destroy()
+        }
     }
     if (statetime < 30)
     {

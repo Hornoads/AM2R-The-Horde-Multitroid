@@ -78,14 +78,20 @@ if (state == 100)
     {
         deb = instance_create(shield1.x, shield1.y, oDebris)
         deb.image_angle = shield1.image_angle
-        deb.sprite_index = sHalzynShield
+        if (AFDCheck() == 1)
+            deb.sprite_index = sAutHordeClaw
+        else
+            deb.sprite_index = sHalzynShield
         deb.direction = (0 + random(30))
         deb.speed = (0.5 + random(3))
         deb.gravity = 0.1
         deb.playsound = 0
         deb = instance_create(shield2.x, shield2.y, oDebris)
         deb.image_angle = shield2.image_angle
-        deb.sprite_index = sHalzynShield
+        if (AFDCheck() == 1)
+            deb.sprite_index = sAutHordeClaw
+        else
+            deb.sprite_index = sHalzynShield
         deb.image_xscale = -1
         deb.direction = (180 - random(30))
         deb.speed = (0.5 + random(3))

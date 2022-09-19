@@ -423,3 +423,4 @@ if (!(file_exists((working_directory + "/TheHorde/dictionary.json"))))
 }
 global.icemissiles = 0
 global.semiauto = 0
+global.bufo = 0

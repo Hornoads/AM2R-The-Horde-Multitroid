@@ -4,8 +4,7 @@ if (oMOmega.myhealth > 0 && oMOmegaMask.image_index != 0)
     {
         with (oMOmega)
         {
-            dmg = 30
-            dmg = global.mod_omegadamagebackmissile
+            dmg = min(30, global.mod_omegadamagebackmissile)
             flashtime = 60
             eyes_close = 15
         }
@@ -13,9 +12,7 @@ if (oMOmega.myhealth > 0 && oMOmegaMask.image_index != 0)
         {
             with (oMOmega)
             {
-                dmg = 97
-                if (global.mod_omegadamagebacksuper < 105)
-                    dmg = global.mod_omegadamagebacksuper
+                dmg = min(97, global.mod_omegadamagebacksuper)
                 flashtime = 120
                 eyes_close = 30
             }

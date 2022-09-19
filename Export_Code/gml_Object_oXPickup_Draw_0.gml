@@ -17,8 +17,10 @@ with (other.id)
                 }
                 if drawHalzynShields
                 {
-                    if (lastEnemyGlow == 1)
-                        shield = sHalzynShieldA4
+                    if (AFDCheck() == 1)
+                        shield = sAutHordeClaw
+                    else if (lastEnemyGlow == 1)
+                        shield = 1700
                     else if (lastEnemyGlow == 2)
                         shield = 1701
                     else

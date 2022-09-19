@@ -13,30 +13,30 @@ if (instance_exists(shield1) && instance_exists(shield2))
             if (glow == 1)
             {
                 sprite_index = sHalzynBodyA4
-                shield1.sprite_index = sHalzynShieldA4
-                shield2.sprite_index = sHalzynShieldA4
+                shield1.sprite_index = shieldlava1
+                shield2.sprite_index = shieldlava1
                 eyeSprite = 1706
             }
             else if (glow == 2)
             {
                 sprite_index = sHalzynBodyA4
-                shield1.sprite_index = sHalzynShieldA4_2
-                shield2.sprite_index = sHalzynShieldA4_2
+                shield1.sprite_index = shieldlava2
+                shield2.sprite_index = shieldlava2
                 eyeSprite = 1706
             }
         }
         else
         {
-            shield1.sprite_index = sHalzynShield
-            shield2.sprite_index = sHalzynShield
+            shield1.sprite_index = shieldsp
+            shield2.sprite_index = shieldsp
         }
         shield1.canhit = 1
         shield2.canhit = 1
     }
     else
     {
-        shield1.sprite_index = sHalzynShieldFrozen
-        shield2.sprite_index = sHalzynShieldFrozen
+        shield1.sprite_index = shieldfrz
+        shield2.sprite_index = shieldfrz
         shield1.canhit = 0
         shield2.canhit = 0
     }

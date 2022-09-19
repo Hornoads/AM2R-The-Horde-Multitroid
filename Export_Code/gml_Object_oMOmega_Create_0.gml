@@ -127,3 +127,4 @@ if (oControl.mod_monstersextremecheck == 1)
     myhealth *= 1.2
     damage *= 1.2
 }
+isactive = 0

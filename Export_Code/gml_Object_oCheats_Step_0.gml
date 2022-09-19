@@ -104,3 +104,57 @@ if (global.mod_gamebeaten == 1)
         io_code_monster = 0
     }
 }
+if (AFDCheck() == 0)
+{
+    if oControl.kUpPressed
+    {
+        if (bufo_code[io_code_bufo] == 38)
+            io_code_bufo++
+        else
+            io_code_bufo = 0
+    }
+    if oControl.kDownPressed
+    {
+        if (bufo_code[io_code_bufo] == 40)
+            io_code_bufo++
+        else
+            io_code_bufo = 0
+    }
+    if oControl.kLeftPressed
+    {
+        if (bufo_code[io_code_bufo] == 37)
+            io_code_bufo++
+        else
+            io_code_bufo = 0
+    }
+    if oControl.kRightPressed
+    {
+        if (bufo_code[io_code_bufo] == 39)
+            io_code_bufo++
+        else
+            io_code_bufo = 0
+    }
+    if oControl.kMenu1Pressed
+    {
+        if (bufo_code[io_code_bufo] == 13)
+            io_code_bufo++
+        else
+            io_code_bufo = 0
+    }
+    if oControl.kMenu2Pressed
+    {
+        if (bufo_code[io_code_bufo] == 8)
+            io_code_bufo++
+        else
+            io_code_bufo = 0
+    }
+    if (io_code_bufo == array_length_1d(bufo_code))
+    {
+        sfx_play(sndAutoCroak)
+        if (global.bufo == 0)
+            global.bufo = 1
+        else
+            global.bufo = 0
+        io_code_bufo = 0
+    }
+}

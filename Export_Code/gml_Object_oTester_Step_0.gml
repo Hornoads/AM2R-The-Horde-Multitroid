@@ -578,7 +578,7 @@ if (state != 100)
 if (flashing > 0)
     flashing -= 1
 statetime += 1
-if (global.event[200] > 1 && (!dead))
+if (global.event[200] >= 2 && (!dead))
 {
     make_explosion3(x, y)
     repeat (30)

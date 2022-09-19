@@ -8,7 +8,7 @@ if (state == 3)
     state = 4
     statetime = 0
 }
-if (state == 5 && angry < 100)
+if (state == 5 && angry < angrymax)
 {
     state = 0
     statetime = 0
@@ -19,7 +19,7 @@ if (state == 5 && angry < 100)
         cyc -= 1
     }
 }
-if (state == 5 && angry >= 100)
+if (state == 5 && angry >= angrymax)
 {
     if (cyc == 0)
     {

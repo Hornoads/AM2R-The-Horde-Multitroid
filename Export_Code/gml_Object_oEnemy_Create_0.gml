@@ -49,3 +49,4 @@ unique = -1
 setmus = 0
 itemdrop = 0
 canspike = 0
+xtreme = oControl.mod_monstersextremecheck

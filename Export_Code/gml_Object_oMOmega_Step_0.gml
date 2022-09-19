@@ -1179,6 +1179,7 @@ if (state == 50)
             roaring = 90
             cam = instance_create(x, y, oObjectCamera)
             cam.target_obj = id
+            isactive = 1
         }
     }
 }
@@ -1213,8 +1214,11 @@ if (state == 100)
             with (grab_obj)
                 instance_destroy()
         }
-        with (cam)
-            instance_destroy()
+        if (cam > oTestKeys)
+        {
+            with (cam)
+                instance_destroy()
+        }
     }
     if (statetime < 30)
     {
@@ -1300,7 +1304,7 @@ else if (eyes_frame < 4)
 if (target_mode == 1 && distance_to_point(targetx, targety) < 32)
     target_mode = 0
 moveTo(xVel, yVel)
-if (global.metdead[myid] == 1 && (!dead))
+if (global.metdead[myid] == 1 && (!dead) && isactive)
 {
     myhealth = 0
     state = 100

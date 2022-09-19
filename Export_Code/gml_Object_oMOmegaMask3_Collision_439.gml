@@ -6,21 +6,9 @@ if oBeam.chargebeam
         {
             with (oMOmega)
             {
-                dmg = 80
-                if (global.mod_omegadamagebackmissile < 30)
-                    dmg = global.mod_omegadamagebackmissile
+                dmg = min(40, (global.mod_omegadamagebackmissile + 10))
                 flashtime = 60
                 eyes_close = 15
-            }
-            if (other.smissile == 1)
-            {
-                with (oMOmega)
-                {
-                    dmg = 150
-                    dmg = global.mod_omegadamagebacksuper
-                    flashtime = 120
-                    eyes_close = 30
-                }
             }
             with (oMOmega)
                 event_user(0)
