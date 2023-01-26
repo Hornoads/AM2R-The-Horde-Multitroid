@@ -2,7 +2,7 @@
 
 ## The Horde Changes
 This is built upong Multitroid 1.3. This mod is made with [UndertaleModTool](), which is why this source is not a Game Maker Studio repo.  
-In order to use to "compile" this source: Use the aforementioned UndertaleModTool to open the data.win (`game.unx` / `game.ios`) from the Releases and its repacker scripts, along with [these](https://github.com/krzys-h/UndertaleModTool/pull/685/files) scripts for importing Rooms/Objects.
+In order to "compile" this source: Use the aforementioned UndertaleModTool to open the data.win (`game.unx` / `game.ios`) from the Releases and its repacker scripts, along with [these](https://github.com/krzys-h/UndertaleModTool/pull/685/files) scripts for importing Rooms/Objects.
 
 **Normal download links compatible with the AM2RLauncher [are available here](https://github.com/Hornoads/AM2R-The-Horde-Multitroid/releases)**
 
