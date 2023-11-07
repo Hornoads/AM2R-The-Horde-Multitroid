@@ -2,7 +2,9 @@
 
 ## The Horde Changes
 This is built upong Multitroid 1.3. This mod is made with [UndertaleModTool](), which is why this source is not a Game Maker Studio repo.  
-In order to use this (the source files): Use the aforementioned UndertaleModTool to open the data.win (`game.unx` / `game.ios`) from the Releases and its repacker scripts, along with [these](https://github.com/krzys-h/UndertaleModTool/pull/685/files) scripts for importing Rooms/Objects.
+In order to "compile" this source: Use the aforementioned UndertaleModTool to open the data.win (`game.unx` / `game.ios`) from the Releases and its repacker scripts, along with [these](https://github.com/krzys-h/UndertaleModTool/pull/685/files) scripts for importing Rooms/Objects.
+
+**Normal download links compatible with the AM2RLauncher [are available here](https://github.com/Hornoads/AM2R-The-Horde-Multitroid/releases)**
 
 The Horde is *not* compatible with milesthenerd's AM2R-Server. It requires The Horde Server for online funcitonality instead. Multitroid may render a save unable to attain 100% completion if a player joins mid-game. Be sure all players are joined before beginning a match to mitigate this risk.  
 You can find the Horde Server [here](https://github.com/Hornoads/AM2R-The-Horde-Server).
